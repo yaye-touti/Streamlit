@@ -1,0 +1,5439 @@
+sustainability
+Review
+
+Exploring the Trend of Commodity Prices: A Review and
+Bibliometric Analysis
+Qi Zhang 1,2 , Yi Hu 2,3, *, Jianbin Jiao 1 and Shouyang Wang 2,4
+1
+
+2
+
+3
+
+4
+
+*
+
+Citation: Zhang, Q.; Hu, Y.; Jiao, J.;
+
+School of Emergency Management Science and Engineering, University of Chinese Academy of Sciences,
+Beijing 100190, China; zhangqi190@mails.ucas.ac.cn (Q.Z.); jiaojb@ucas.ac.cn (J.J.)
+School of Economics and Management, University of Chinese Academy of Sciences, Beijing 100190, China;
+sywang@amss.ac.cn
+Key Laboratory of Big Data Mining and Knowledge Management, Chinese Academy of Sciences,
+Beijing 100190, China
+Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing 100190, China
+Correspondence: huyi@ucas.ac.cn
+
+Abstract: As the supply of commodities forms essential lifelines for modern society, commodity price
+fluctuations can significantly impact the operation and sustainable development of macroeconomics,
+production activities, and people’s security and well-being. The commodity trading market also plays
+a pivotal role in the competition of the international industrial chain and the sustainable development
+of the industry. The method of bibliometrics was used in this study to trace the development of
+research on commodity prices, and statistical and co-citation analyses were conducted on selected
+literature samples. It was found that the research hotspots in this field are concentrated on four
+aspects: factors influencing commodity prices, the impact of price fluctuations on the macroeconomy,
+forecasts of commodity prices, and the financialization of commodities. A current commodity price
+research network centered on oil prices has formed. Future directions in this field, which developed
+out of oil shock research 40 years ago, can further investigate the impact of factors and the responses
+that can be made to emergencies on commodity prices, as well as continuing to develop better
+methods of commodity price forecasting.
+
+Wang, S. Exploring the Trend of
+Commodity Prices: A Review and
+
+Keywords: commodity prices; bibliometrics; co-citation; cluster analysis
+
+Bibliometric Analysis. Sustainability
+2022, 14, 9536. https://doi.org/
+10.3390/su14159536
+Academic Editor: Flavio Boccia
+Received: 12 July 2022
+Accepted: 1 August 2022
+Published: 3 August 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+1. Introduction
+Commodities, essential lifelines for modern society, include almost all primary material commodities used for production and consumption, such as energy, minerals, and
+agricultural products. It is important to understand the driving factors for the fluctuations
+of commodity prices and the impact of commodity price changes on the macroeconomy [1].
+In consumer and producer countries, a large part of income and welfare depends on the
+prices of these goods [2]. Commodity markets occasionally exhibit widespread mass booms
+and busts. These events affect the ability of the poor and those countries in the developing
+world to purchase basic necessities, such as food and energy, creating trade imbalance, and
+in some cases, political turmoil. The effect of the “boom and bust” of commodity prices
+resonates with ordinary people because trade imbalances and currency shocks that can
+then arise affect social welfare [3], the operation of the national economy, and enterprise
+production in a way that not all price surges do. Therefore, commodities price fluctuation
+has received attention from all quarters.
+In addition, commodity prices are more volatile than others [4]. With the gradually
+deepening financialization of the commodity market, this greater fluctuation is obvious
+and is well known to be extremely susceptible to large-scale emergencies, creating rapid
+fluctuation. Starting from decade lows in the late 1990s, commodity prices continued to rise
+for the next 10 years, and reached their peak in June 2008. After the financial crisis, it was
+
+Sustainability 2022, 14, 9536. https://doi.org/10.3390/su14159536
+
+https://www.mdpi.com/journal/sustainability
+
+Sustainability 2022, 14, 9536
+
+2 of 22
+
+pushed to a record high by many countries’ economic stimulus. The price until 2011 was
+twice as much as that in 1988. From the second half of 2006 to the first half of 2008, driven
+by various factors, the prices of agricultural products on a global scale rose, triggering a
+round of food crises that seriously impacted the welfare of the poor worldwide. Due to
+the wide effects of COVID-19, the prices of metal products, such as steel and copper, fell
+sharply and then increased rapidly in 2020, posing a serious threat to the production and
+survival of downstream small- and medium-sized enterprises. In the long run, the trend of
+increasing volatility in commodity prices can be difficult to reverse, creating the necessity
+to pay more attention to the field of forecasting international commodity prices.
+More importantly, the volatility of commodity prices has an important impact on the
+sustainable development of a country. Take energy as an example. Among the Sustainable
+Development Goals, SDG7 is the Sustainable Development Goal of Energy, which is to
+ensure that everyone has access to affordable, reliable, and sustainable modern energy.
+However, energy prices affect the stability and sustainable development of most countries,
+especially poor countries, where access to energy is limited; in addition, some populations
+have no access to energy at all, which goes against the goals of SDG7 [5]. On the other
+hand, sharp fluctuations in energy prices have had a significant impact, with rapid price
+declines not conducive to energy exporting countries; however, sharp price increases
+are unfavorable for energy importing countries, and exporting countries are affected by
+energy price vulnerability [6]. If the general trend of energy prices cannot be well grasped
+and a safe energy guarantee mechanism cannot be established, it will bring challenges
+to the sustainable development of the country [7,8]. Likewise, food sustainability is one
+of the main concepts for achieving global sustainable development [9]. SDG2 means
+ending hunger, achieving food security, improving nutrition, and promoting sustainable
+agriculture. High food prices will limit people’s ability to obtain food [10], which is
+fundamentally detrimental to the long-term development of the country.
+Having a better understanding of the research history and development path of
+commodity prices, and grasping the current research hotspots and future development
+trends, are of theoretical and practical significance. In particular, it can help companies
+to prevent future business risks, help companies to take effective measures to hedge
+the cost risks caused by drastic price changes, and increase the expectations for future
+sustainable development. However, current research reviews in this field mainly use
+qualitative analysis methods, relying on an author’s subjective framework to sort out
+research themes and content [11], or only focusing on one specified commodity. For
+example, Chiroma et al. [12] reviewed the application of existing computer intelligence
+algorithms in crude oil price prediction, and analyzed the advantages and limitations of the
+research. Ederington et al. [13] reviewed the existing research on the relationship between
+crude oil prices and petroleum product prices, and summarized the causal and asymmetric
+relationship between the two. Abdallah et al. [14] used food safety, price fluctuations, and
+price transmission as keywords to quantitatively analyze literature on food safety and food
+prices; this revealed the current research hotspots and status quo.
+Compared with traditional qualitative literature reviews, bibliometric analysis, using
+statistical methods, can evaluate and review research progress in a more comprehensive
+and objective way, and is visualized. Therefore, this paper uses the Citespace software to
+sort out the development of the field of “commodity prices”, grasp the overall growth trend
+of the number of documents and citations in this field, figure out the top scientific research
+institutions, countries and core authors, as well as their cooperation relationships. At the
+same time, through co-citation analysis, we can understand current research hotspots and
+dynamic evolution to clarify future research trends.
+
+2. Methods and Data
+Bibliometric analysis is powerful for tracing the development path and grasping the
+research hotspots of a specified research field. Because it integrates mathematics, statistics,
+Sustainability
+14, 9536
+and2022,
+philology
+to help researchers conduct quantitative analysis and visual research on 3 of 22
+literature, it can quickly identify the coupling relationship between published articles and
+the cooperation relationship between authors. The most common analysis methods in2. Methods and Data
+clude core author analysis, co-citation analysis, and co-word analysis [15–17].
+Bibliometric analysis is powerful for tracing the development path and grasping the
+For this study, research
+research
+papers on commodity prices were searched for and collected
+hotspots of a specified research field. Because it integrates mathematics, statistics,
+from the “Web of Science
+Core Collection”
+database.
+Wequantitative
+first searched
+the database
+and philology
+to help researchers
+conduct
+analysis
+and visual using
+research on
+literature,
+it can quickly
+identify
+the coupling
+relationship“food
+between
+published
+keywords, including
+“commodity
+price”,
+“price
+of commodity”,
+price”,
+andarticles
+“oil and
+the
+cooperation
+relationship
+between
+authors.
+The
+most
+common
+analysis
+methods
+include
+price”, and limited the searched-for literature types to “Article” and “Review”. We then
+core author analysis, co-citation analysis, and co-word analysis [15–17].
+collected a list that contains 2962 articles from 1900 to 2020 (downloaded on 14 September
+For this study, research papers on commodity prices were searched for and collected
+2021). Next, based on
+the
+and
+abstract,database.
+we excluded
+are notusing
+from thetitle,
+“Webkeywords,
+of Science Core
+Collection”
+We firstpapers
+searchedthat
+the database
+closely related to thekeywords,
+researchincluding
+topic, such
+as
+wholesale
+price
+of
+goods
+in
+a
+certain
+year,
+and
+“commodity price”, “price of commodity”, “food price”,
+and “oil
+price”,Finally,
+and limited
+thepapers
+searched-for
+literature types to “Article” and “Review”. We then
+product sales strategies.
+1671
+remained.
+collected a list that contains 2962 articles from 1900 to 2020 (downloaded on 14 September
+2021). Next, based on the title, keywords, and abstract, we excluded papers that are not
+3. Statistical Analysis of Commodity Prices
+closely related to the research topic, such as wholesale price of goods in a certain year, and
+product
+sales strategies.
+Finally, 1671 papers
+remained.
+This section may
+be divided
+into subheadings.
+It should
+provide a concise and pre-
+
+cise description of the experimental results, their interpretation, as well as the experi3. Statistical Analysis of Commodity Prices
+mental conclusions that can be drawn.
+
+This section may be divided into subheadings. It should provide a concise and precise
+description of the experimental results, their interpretation, as well as the experimental
+3.1. Research on the Overall
+Growth
+Trend
+conclusions
+that can
+be drawn.
+
+Total number of citations per year
+
+12,000
+
+250
+
+10,000
+y = 5×10-142e0.1638x
+R² = 0.9669
+
+8,000
+
+200
+
+150
+6,000
+100
+4,000
+50
+
+2,000
+
+y = 3.3882e0.3066x
+R² = 0.9881
+
+Total number of articles published each year
+
+The degree of academic
+attention to a certain field can be reflected in the number of
+3.1. Research on the Overall Growth Trend
+publications and citations.
+It can be seen from Figure 1 that the literature on commodity
+The degree of academic attention to a certain field can be reflected in the number of
+prices has graduallypublications
+increased and
+since
+2000, and
+shown
+explosive
+growth
+trend
+after
+citations.
+It canhas
+be seen
+froman
+Figure
+1 that the
+literature
+on commodity
+2008, reaching 221 in
+2019.
+1990
+to 2019,
+the2000,
+number
+documents
+has growth
+doubled
+a after
+prices
+has From
+gradually
+increased
+since
+and hasofshown
+an explosive
+trend
+2008,
+reaching
+221
+in
+2019.
+From
+1990
+to
+2019,
+the
+number
+of
+documents
+has
+doubled
+hundredfold in 30 years. This is in line with the actual situation. The 2008 financial crisis
+a hundredfold in 30 years. This is in line with the actual situation. The 2008 financial
+caused violent fluctuations
+in commodity prices and severely impacted economic operacrisis caused violent fluctuations in commodity prices and severely impacted economic
+tions. Since then, more
+scholars
+have
+devoted
+themselves
+to research
+in this
+field. in this field.
+operations. Since
+then,
+more scholars
+have devoted
+themselves
+to research
+
+0
+
+0
+199019931995199719992001200320052007200920112013201520172019
+Citations
+
+Number
+
+1. The number of published documents in each year (1990–2020).
+Figure 1. The numberFigure
+of published
+documents in each year (1990–2020).
+
+Figure 1 also reflects the changing trend of the number of citations in the field of
+commodity prices in the past 30 years. The number of citations grew from 5 in 1990 to
+10,624 in 2020. The most cited article is Kilian’s article published on AER in 2009. This
+groundbreaking research decomposed the actual price of crude oil into three parts: crude
+
+Sustainability 2022, 14, 9536
+
+4 of 22
+
+Sustainability 2022, 14, x FOR PEER REVIEW
+
+4 of 23
+
+Figure 1 also reflects the changing trend of the number of citations in the field of
+commodity
+prices shocks
+in the past
+Theindustrial
+number ofcommodity
+citations grew
+from 5 inand
+1990demand
+to
+oil supply shocks,
+to 30
+theyears.
+global
+demand,
+10,624 in 2020. The most cited article is Kilian’s article published on AER in 2009. This
+shocks specific to the crude oil market; it discussed the reasons for major oil price shocks
+groundbreaking research decomposed the actual price of crude oil into three parts: crude
+since 1975. As of 2020, this article has been cited 1,409 times, becoming a foundational
+oil supply shocks, shocks to the global industrial commodity demand, and demand shocks
+work
+in the
+of commodity
+specific
+to field
+the crude
+oil market;prices.
+it discussed the reasons for major oil price shocks since
+For
+the
+quantitative
+work,
+our
+was:
+apply
+exponential
+fitting towork
+the number
+1975. As of 2020, this article has beenmethod
+cited 1409
+times,
+becoming
+a foundational
+in
+of articles
+published
+each
+year
+and
+the
+number
+of
+citations.
+The
+R-squares
+of
+the curves
+the field of commodity prices.
+Forand
+the 0.988,
+quantitative
+work, ourindicating
+method was:
+exponential
+fitting to the
+number and
+are 0.967
+respectively,
+thatapply
+the number
+of research
+documents
+of articles
+published
+year andprices
+the number
+of citations. The
+R-squares
+the curves
+citations
+in the
+field of each
+commodity
+has exponentially
+increased;
+thisofreflects
+the high
+are
+0.967
+and
+0.988,
+respectively,
+indicating
+that
+the
+number
+of
+research
+documents
+and
+degree of concern of the academic community on commodity prices in recent years.
+citations in the field of commodity prices has exponentially increased; this reflects the high
+degree of concern of the academic community on commodity prices in recent years.
+
+3.2. Publication Sources
+
+3.2.
+Publication
+Sources
+Figure
+2 shows
+the main research areas of commodity prices and their proportions.
+
+The research
+is given
+by the Web
+database.
+the proportions.
+research content
+Figure direction
+2 shows the
+main research
+areasofofScience
+commodity
+prices Since
+and their
+research direction
+is given
+by the Web
+of Science
+database. Since
+thefield
+research
+of aThe
+document
+may involve
+multiple
+fields,
+the proportions
+of each
+addcontent
+up to more
+of
+a
+document
+may
+involve
+multiple
+fields,
+the
+proportions
+of
+each
+field
+add
+up
+to
+more
+than 100%. It can be seen that the research is mainly concentrated on economics
+and enthan
+100%.
+It
+can
+be
+seen
+that
+the
+research
+is
+mainly
+concentrated
+on
+economics
+and
+energy,
+ergy, with a small proportion of research focusing on finance.
+with a small proportion of research focusing on finance.
+Engineering
+
+5.39%
+
+Agricultural Economics & Policy
+
+6.22%
+
+Environmental Sciences
+
+6.88%
+
+Agriculture
+
+7.06%
+
+Environmental Studies
+
+12.15%
+
+Business,Finance
+
+12.21%
+
+Environmental Sciences &Ecology
+
+12.69%
+
+Energy & Fuels
+
+18.55%
+
+Economics
+
+64.21%
+
+Business & Economics
+0.00%
+
+70.08%
+20.00%
+
+40.00%
+
+60.00%
+
+80.00%
+
+Figure 2. Main research areas and proportions.
+
+Figure 2. Main research areas and proportions.
+Paying attention to publications of frequently cited literature can clarify the degree
+attention
+of frequently
+cited
+literature
+degree
+of Paying
+academic
+attentiontotopublications
+the field of commodity
+prices.
+Table
+1 shows can
+someclarify
+highlythe
+cited
+journals
+and
+their
+impact
+factors
+in
+the
+past
+five
+years.
+Among
+them,
+Energy
+Economics,
+of academic attention to the field of commodity prices. Table 1 shows some highly cited
+Journaland
+of Econometrics,
+Economic
+highlyEconomics,
+cited.
+journals
+their impact Econometrica,
+factors in theand
+pastAmerican
+five years.
+AmongReview
+them, are
+Energy
+They
+are
+the
+top
+publications
+in
+the
+fields
+of
+energy,
+econometrics,
+and
+economics.
+It
+shows
+Journal of Econometrics, Econometrica, and American Economic Review are highly cited.
+that in addition to relevant professional knowledge, research on commodity prices also
+They are the top publications in the fields of energy, econometrics, and economics. It
+involves using a large number of econometric models. From the perspective of the volume
+shows
+that in addition to relevant professional knowledge, research on commodity prices
+of publications, the literature in this field is mostly concentrated on Energy Economics,
+also
+involves
+using
+large number
+of econometric
+models.
+Fromare
+theallperspective
+Energy Policy,
+and aEnergy,
+and the impact
+factors of these
+journals
+above 6; thisof the
+volume
+of publications,
+the literature
+this field is
+mostly
+concentrated
+Energy Ecoindicates
+that there has been
+a batch of in
+high-quality
+articles
+affecting
+economicon
+operation
+nomics,
+Energy
+Policy,
+and
+Energy,
+and
+the
+impact
+factors
+of
+these
+journals
+are
+all above
+and resource management in the field of commodity price research.
+
+6; this indicates that there has been a batch of high-quality articles affecting economic operation and resource management in the field of commodity price research.
+
+Table 1. Statistics of highly cited articles published in journals.
+Sustainability 2022, 14, 9536
+
+Number of Articles
+5 Year
+Impact
+5 of
+22
+Journal
+Published
+Factor
+1051
+269
+Energy Economics
+7.571
+Table
+1.
+Statistics
+of
+highly
+cited
+articles
+published
+in
+journals.
+687
+79
+Energy Policy
+6.581
+324
+54
+Energy
+6.845
+Number of Articles
+Journal
+5
+Year
+Impact
+Factor
+Citations
+466
+44
+Economic Modelling
+3.412
+Published
+433 1051
+41 269
+Energy
+Journal
+Energy
+Economics
+7.571 2.786
+687
+79
+Energy
+Policy
+6.581
+333
+38
+Applied Economics
+1.88
+324
+54
+Energy
+6.845
+227
+38
+Resources Policy
+5.654
+466
+44
+Economic Modelling
+3.412
+299 433
+31 41
+Applied
+Energy
+Energy
+Journal
+2.786 9.953
+AppliedEconomics
+Economics Letters
+1.88
+119 333
+30 38
+Applied
+1.2
+227
+38
+Resources Policy
+5.654
+American
+Journal
+of
+Agricultural
+EcoApplied Energy
+9.953 4.461
+207 299
+27 31
+nomics
+119
+30
+Applied Economics
+Letters
+1.2
+
+Citations
+
+207
+
+3.3. Research Countries
+
+27
+
+American Journal of
+Agricultural Economics
+
+4.461
+
+Figure 3 shows the cooperation network in the country where the first author of the
+3.3. Research Countries
+article is located. According to Figure 3, the United States, China, Australia, and France
+Figure 3 shows the cooperation network in the country where the first author of the
+arearticle
+at theiscenter
+of the network, forming a relatively close cooperative relationship, and
+located. According to Figure 3, the United States, China, Australia, and France are
+each
+has
+cooperation
+with many
+other
+countries.
+Judging
+from the
+average year
+of publiat the center of the network,
+forming
+a relatively
+close
+cooperative
+relationship,
+and each
+cation,
+the Unitedwith
+States,
+Canada,
+and otherJudging
+countries
+research
+area earlier.
+has cooperation
+many
+other countries.
+fromstarted
+the average
+year in
+of this
+publication,
+While
+China started
+late, Chinese
+authors
+quickly
+occupied
+sub-center
+position
+the United
+States, Canada,
+and other
+countries
+started
+researchthe
+in this
+area earlier.
+Whileof this
+China
+started
+late,
+Chinese
+authors
+quickly
+occupied
+the
+sub-center
+position
+of
+this
+network.
+network. Figure 4 summarizes the number of publications in the country of the first author.
+4 summarizes
+the number
+of publications
+in the number
+country of
+first author.
+The
+TheFigure
+United
+States (385) and
+China (341)
+have the largest
+of the
+publications.
+The
+sum of
+United
+States
+(385)
+and
+China
+(341)
+have
+the
+largest
+number
+of
+publications.
+The
+sum
+the number of articles from the two countries accounts for more than one-third of the total
+of the number of articles from the two countries accounts for more than one-third of the
+publications, followed by Australia (119), England (117), and France (104). The total number
+total publications, followed by Australia (119), England (117), and France (104). The total
+of articles
+by researchers in these five countries accounts for more than one-half of the total.
+number of articles by researchers in these five countries accounts for more than one-half of
+the total.
+
+Figure
+3. Cooperation
+countries.
+Figure
+3. Cooperationnetwork
+network between
+between countries.
+
+2022, 14, x FOR PEER REVIEW
+Sustainability 2022, 14, Sustainability
+9536
+
+6 of 22
+
+Italy
+
+6
+
+56
+
+Spain
+
+74
+
+Germany
+
+78
+
+Canada
+
+78
+
+Turkey
+
+89
+
+France
+
+104
+
+England
+
+117
+
+Australia
+
+119
+
+Peoples R China
+
+341
+
+USA
+
+385
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+350
+
+400
+
+450
+
+Figure 4. Distribution
+of research
+regions.
+Figure
+4. Distribution
+of research regions.
+
+Next, we focus on
+the we
+research
+object
+of the literature.
+Extract
+the names
+of the
+countries
+Next,
+focus on
+the research
+object of the
+literature.
+Extract
+names of count
+or organizationsor
+from
+the
+topics,
+and
+make
+statistics
+in
+groups
+of
+five
+years
+to
+obtain
+theto obtain
+organizations from the topics, and make statistics in groups of five years
+histogram shownhistogram
+in Figure shown
+5. It caninbeFigure
+seen that
+21st
+century,
+morescholars p
+5. It before
+can bethe
+seen
+that
+beforescholars
+the 21st paid
+century,
+attention to the situation
+in thetoUnited
+States,inGulf
+Cooperation
+countries,Council
+and countr
+more attention
+the situation
+the United
+States, Council
+Gulf Cooperation
+Britain. After entering
+the 21st
+century,
+scholars’
+research
+for the enthusiasm
+United States
+and Britain.
+After
+entering
+the 21st
+century,enthusiasm
+scholars’ research
+for the Uni
+has not diminished.
+they no longer
+focusthey
+on no
+thelonger
+United
+Kingdom,
+but onKingdom,
+the
+StatesHowever,
+has not diminished.
+However,
+focus
+on the United
+bu
+overall
+situation
+of EU
+countries.
+Since 2006,
+the numberinofthis
+publications
+overall situationthe
+of EU
+countries.
+Since
+2006,
+the number
+of publications
+field has in this f
+increased
+sharply (Figure
+1); emerging
+economies
+suchhave
+as China
+andthe
+India have
+increased sharplyhas
+(Figure
+1); emerging
+economies
+such as China
+and India
+entered
+the research
+scope
+of scholars,
+especially
+China,
+which
+has become
+the largest
+research scope oftered
+scholars,
+especially
+China,
+which has
+become the
+largest
+research
+object in
+search
+object
+in
+this
+field
+since
+2011.
+In
+addition,
+after
+2006,
+the
+diversity
+of
+this field since 2011. In addition, after 2006, the diversity of research objects has increased,research
+jects on
+hasjust
+increased,
+rather than
+ontime,
+just athere
+few countries.
+At the
+same time, th
+rather than focusing
+a few countries.
+Atfocusing
+the same
+are also many
+pieces
+are
+also
+many
+pieces
+of
+literature
+studying
+the
+situation
+of
+a
+group
+or
+groups
+of literature studying the situation of a group or groups of similar countries, such as oil of sim
+Sustainability 2022, 14, x FOR PEER REVIEW
+7 of 23
+countries,
+such as oil
+importing
+countries,
+oil exporting
+emerging
+importing countries,
+oil exporting
+countries,
+emerging
+economies,
+etc., countries,
+or countries
+in the econom
+etc.,
+or
+countries
+in
+the
+same
+region,
+such
+as
+the
+Middle
+East,
+Asia,
+South
+Africa, etc.
+same region, such as the Middle East, Asia, South Africa, etc.
+40.00%
+35.00%
+
+US,36.67%
+
+30.00%
+
+Percentage
+
+25.00%
+US,21.05%
+China,23.03%
+
+20.00%
+OPEC,15.79%
+
+US,18.57%
+
+US,17.20%
+US,13.21%
+
+15.00%
+10.00%
+5.00%
+
+GCC,10.00%
+
+Australia,
+10.53%
+
+China,15.71%
+
+China,14.62%
+EU,5.66%
+
+UK,6.67%
+
+0.00%
+Before 2001
+
+2001–2005
+
+2006–2010
+
+2011–2015
+
+2016–2021
+
+US
+
+China
+
+GCC
+
+UK
+
+OPEC
+
+Australia
+
+India
+
+Canada
+
+EU
+
+Mexico
+
+Turkey
+
+BRICS/BRIC
+
+Figure
+research object.
+object.
+Figure5.5.Distribution
+Distribution of
+of the
+the research
+
+3.4. Analysis of High-Level Scientific Research Institutions
+Table 2 shows the top 10 journals based on publications and their main direction in
+the field of commodity price research. The institution at the forefront is the Chinese Academy of Sciences with 48 articles in total. Hunan University ranks second with 26 publications, followed by Montpellier Business School (21), and the University of Pretoria (20).
+
+Sustainability 2022, 14, 9536
+
+7 of 22
+
+3.4. Analysis of High-Level Scientific Research Institutions
+Table 2 shows the top 10 journals based on publications and their main direction in the
+field of commodity price research. The institution at the forefront is the Chinese Academy
+of Sciences with 48 articles in total. Hunan University ranks second with 26 publications,
+followed by Montpellier Business School (21), and the University of Pretoria (20). World
+Bank, Central University of Finance and Economics, Beijing Institute of Technology, and
+Drexel University have the same amount of articles (18). In regional distribution, half of
+the top ten institutions are from China, whose research directions mainly focus on the
+prediction of crude oil prices, and the linkage between crude oil prices and the stock market.
+Two institutions are located in France and one institution in South Africa. The World Bank
+put its research focus on food security and food price crises.
+Table 2. Top 10 institutions based on the number of publications in commodity price research.
+Institution
+Chinese Academy of
+Sciences
+Hunan University
+Montpellier Business
+School
+University of Pretoria
+World Bank
+Central University of
+Finance and
+Economics
+Beijing Institute of
+Technology
+Drexel University
+University of Chinese
+Academy of Sciences
+IPAG Business School
+
+Field
+Crude oil price forecasting; factors
+influencing crude oil prices; crude oil prices
+and the stock market
+Crude oil prices and the stock market
+return; crude oil price forecasting
+Oil price and precious metal prices;
+oil price and economy
+The impact of oil price fluctuations on
+macroeconomy
+Causes and effects of food price crisis; food
+security; linkage between commodity prices
+Co-movement of commodity prices; crude
+oil prices and the stock market return;
+macroeconomic uncertainty and
+commodity prices
+Oil price forecasting; oil price and
+stock return
+Influencing factors of commodity prices; the
+impact of commodity price shocks on
+other factors
+
+Publications Regions
+48
+
+China
+
+26
+
+China
+
+21
+
+France
+
+20
+
+South
+Africa
+
+18
+
+18
+
+China
+
+18
+
+China
+
+18
+
+USA
+
+Crude oil price forecasting
+
+16
+
+China
+
+Commodity prices and their determinant
+
+15
+
+France
+
+In addition, we can observe the cooperative relationship between institutions (Figure 6).
+The current research basically forms a cooperative network centered on the Chinese
+Academy of Sciences, Hunan University, and Montpellier Business School. The Chinese
+Academy of Sciences has a close cooperative relationship with the University of Chinese
+Academy of Sciences, as well as with Xiamen University and Beihang University. Hunan University cooperates with the Beijing Institute of Technology and other institutions,
+and this forms a sub-network. In other regions, the cooperation network centered on
+Montpellier Business School and on the University of Pretoria has also strengthened. This
+cooperation network and the cooperation network centered on Hunan University are
+connected through the University of Nebraska and the University of Essex.
+
+Sustainability 2022, 14, 9536
+
+Academy of Sciences, as well as with Xiamen University and Beihang University. Hunan
+University cooperates with the Beijing Institute of Technology and other institutions, and
+this forms a sub-network. In other regions, the cooperation network centered on Montpellier Business School and on the University of Pretoria has also strengthened. This cooper8 of 22
+ation network and the cooperation network centered on Hunan University are connected
+through the University of Nebraska and the University of Essex.
+
+Figure 6. Institutional cooperation network.
+Figure 6. Institutional cooperation network.
+
+3.5. Analysis
+of Core
+Authors
+3.5. Analysis
+of Core
+Authors
+A core author, meaning a researcher with more output and greater influence in a
+A core
+author, meaning a researcher with more output and greater influence in a
+specific research field, can be determined using Price’s law in bibliometrics [18], which is
+specific
+research field, can be determined using Price’s law in bibliometrics [18], which is
+expressed as:
+√
+expressed as:
+M = 0.749 Nmax
+(1)
+where Nmax is the maximum number of
+papers
+𝑀𝑀published
+= 0.749�
+𝑁𝑁𝑚𝑚𝑚𝑚𝑚𝑚among all the authors, and M is (1)
+the minimum number of published papers to determine the core author; that is, the number
+of published
+papers
+is M or more
+than M
+determinepapers
+a core author.
+maximum
+number
+of to
+published
+among all the authors, and 𝑀𝑀
+where
+𝑁𝑁𝑚𝑚𝑚𝑚𝑚𝑚 is the
+Among
+the
+sample
+documents
+searched
+in
+this
+study,
+the
+published
+is the minimum number of published papers to determine scholars
+the corewho
+author;
+that is, the
+the
+largest
+number
+of
+papers
+have
+18
+articles;
+thus,
+N
+=
+18,
+and
+M
+is
+4
+at
+this
+time
+max
+number of published papers is 𝑀𝑀 or more than 𝑀𝑀 to determine a core author. for
+determining the core authors as being those who have published more than four papers.
+Among
+the sample documents searched in this study, the scholars who published
+Table 3 shows that, in our sample, there are 52 core authors in the field who have
+the largest
+number
+of papers
+18 articles;
+thus,of 𝑁𝑁
+= 18, and
+𝑀𝑀 in
+is the
+4 atsample.
+this time for
+𝑚𝑚𝑚𝑚𝑚𝑚
+published
+370 articles
+in total,have
+accounting
+for 30.53%
+the
+published
+articles
+determining
+core authors
+being18those
+have“Forecasting
+published crude
+moreoil
+than
+four
+Wang has the
+published
+the most as
+articles,
+in all. who
+The article
+price
+withpapers.
+an EMD-based neural network ensemble learning paradigm”, which he collaborated on
+with Yu, had been cited 387 times by the end of 2020. This article uniquely proposed a
+neural network integration paradigm based on the empirical mode decomposition (EMD)
+method for the decomposition and prediction of crude oil prices, which is considered a
+foundational achievement in the research field of commodity prices.
+Regarding the cooperative relationship of the core authors (Figure 7), a cooperative
+network with Wang as the core, and Tiwari, Hammoudeh, and Gupta as another core,
+is formed. Wang and Lai have the closest partnership, followed by Yu and Tang. The
+cooperation network with Tiwari, Hammoudeh, and Gupta as the core is the largest
+cooperation network in the current research field.
+
+Sustainability 2022, 14, 9536
+
+9 of 22
+
+Table 3. Statistics of the core authors.
+Rank
+
+Author
+
+1
+2
+3
+4
+5
+6
+
+Wang S
+Tiwari A K
+Hammoudeh S, Gupta R
+Kilian L
+Ratti R A, An H
+Yu L
+Narayan P K, Wang Y, Zhang Y
+J, Yin L, Serletis A, Salisu A A,
+Nguyen D K
+Wen F, Balcilar M, Reboredo J C,
+Tang L
+Baumeister C, Ji Q, Ghoshray A,
+Nonejad N, Zhao L
+Liu L, Yu W, Zhu H, Herrera A
+M, Soytas U,
+Jiménez-Rodríguez R, Fan Y
+Arouri M E H, Shahbaz M, De
+Gracia F P, Uri N D
+Castro C, Maghyereh A, Zhang
+C, Huang X, Lai K K, Wohar M
+E, Shahzad S J H, Nazlioglu S,
+Huang S, Karaki M B,
+Pierdzioch C, Gao X, Wei Y, Tao
+R, Boyd R, Filis G, Baek J
+Total
+
+7
+8
+9
+10
+11
+
+12
+
+Sustainability 2022, 14, x FOR PEER REVIEW
+
+Number of
+People
+
+Number of Articles
+Published
+
+Proportion
+of Total/%
+
+1
+1
+2
+1
+2
+1
+
+18
+16
+15
+14
+11
+10
+
+1.49%
+1.32%
+2.48%
+1.16%
+1.82%
+0.83%
+
+7
+
+9
+
+5.20%
+
+4
+
+8
+
+2.64%
+
+5
+
+7
+
+2.89%
+
+7
+
+6
+
+3.47%
+
+4
+
+5
+
+1.65%
+
+17
+
+4
+
+5.61%
+
+10 of 23
+52
+
+370
+
+30.53%
+
+Figure 7. The core authors’ cooperative relationship network.
+Figure 7. The core authors’ cooperative relationship network.
+
+Scholars’
+educational and
+and academic
+backgrounds
+will affect
+their research
+interests tointerests
+Scholars’
+educational
+academic
+backgrounds
+will affect
+their research
+a
+great
+extent.
+Tiwari
+is
+an
+assistant
+professor
+of
+Economics
+at
+the
+Indian
+Institute
+of Manto a great extent. Tiwari is an assistant professor of Economics at the Indian
+Institute of
+agement Bodh Gaya (IIMBG) in the Department of Economics and Business Environment.
+Management Bodh Gaya (IIMBG) in the Department of Economics and Business EnvironTiwari is good at using wavelet analysis, and his research fields focus on macroeconomics,
+
+ment. Tiwari is good at using wavelet analysis, and his research fields focus on macroeconomics, the oil market, the stock market, etc. Therefore, in the study of commodity
+prices, he mainly focuses on the relationship between oil prices and other variables, such
+as the exchange rate, the stock market, etc. Hammoudeh is a professor of Economics and
+
+Sustainability 2022, 14, 9536
+
+10 of 22
+
+the oil market, the stock market, etc. Therefore, in the study of commodity prices, he mainly
+focuses on the relationship between oil prices and other variables, such as the exchange rate,
+the stock market, etc. Hammoudeh is a professor of Economics and International Business
+at Drexel University. He is well-known for his oil, gold, and financial market research.
+Gupta is a professor at the University of Pretoria in the Department of Economics, who has
+a certain degree of mathematical background and prefers the econometric research of time
+series. Therefore, in the field of commodity price research, he is mainly data-driven and
+focuses on crude oil price prediction. The three scholars all pay attention to the research on
+commodity prices; however, their research focuses and methods have different emphases,
+forming a complementary and stable cooperation network.
+Wang is a distinguished researcher at the Chinese Academy of Sciences, Yu is a
+Professor at the Beijing University of Chemical Technology, and Tang is a Professor at the
+Beijing University of Aeronautics and Astronautics. Both Yu and Tang are Wang’s students.
+Therefore, the three scholars have a closer cooperation relationship and a single research
+direction compared with the above cooperation network. Wang and Yu first proposed
+the EMD method to decompose crude oil prices and focused on the prediction of crude
+oil prices.
+Overall, the research on commodity prices has experienced a boom period, attracting interest from many scholars interested in this research field, especially in exploring
+crude oil price trends. Scholars represented by Wang, Tiwari, Hammoudeh, and Gupta
+have produced a batch of high-quality documents and have gradually formed a stable
+network of cooperative relations. Regarding the research content, the overall difference
+between Eastern and Western scholars is not large, and the key lies in scholars’ academic
+backgrounds and research interests.
+4. Co-Citation Analysis of Commodity Prices
+4.1. Cluster Analysis of Co-Cited Articles
+If two articles appear together in the reference list of the third citing document, these
+two references form a co-citation relationship. If the two documents are cited by n documents together, the number of co-citations is n times. According to co-citation analysis,
+the degree of correlation between documents can be measured, and the collection of documents can be classified according to the degree of correlation, after which a cluster analysis
+network diagram of professional papers in that discipline can be generated. In Figure 8,
+showing the co-citation network of sample articles, node size in the graph indicates the
+frequency of citations. The higher the frequency of citations, the larger the nodes. The
+connection between two nodes designates these two documents have been cited together.
+Indicating a change in the research direction, the color of the infographic changed from dark
+to light over the 1990 to 2020 period, and the research focus expanded from an agricultural
+commodity price and oil price dynamic to an oil price prediction and financialization.
+In Table 4, which depicts a summary of each cluster’s details, cluster size represents
+the number of articles it includes. Silhouette is a parameter proposed by Kaufman and
+Rousseeuw in 1990 to evaluate the effect of clustering through network homogeneity [19].
+The Silhouette value lies between 0–1, and the closer it is to 1, the higher the homogeneity
+of the network and the higher the credibility of clustering. The publication year is the
+average publication time of articles in this cluster. According to Table 4, the largest clusters
+are Cluster #0, #1, #2, #3, and #4. Their articles focus on the exploration of the correlation
+between commodity prices and the stock market, the exchange rate, oil price uncertainty,
+and crude oil price forecasting. In addition, most clusters’ Silhouette values are above 0.7,
+indicating that these clusters are highly homogeneous and highly reliable.
+
+Sustainability 2022, 14, 9536
+
+ysis network diagram of professional papers in that discipline can be generated. In Figure
+8, showing the co-citation network of sample articles, node size in the graph indicates the
+frequency of citations. The higher the frequency of citations, the larger the nodes. The
+connection between two nodes designates these two documents have been cited together.
+Indicating a change in the research direction, the color of the infographic changed from
+dark to light over the 1990 to 2020 period, and the research focus expanded from an agri11 of 22
+cultural commodity price and oil price dynamic to an oil price prediction and financialization.
+
+Figure 8. Clusters of co-cited articles.
+Figure
+8. Clusters of co-cited articles.
+
+InCitation
+Table 4 clustering
+, which depicts
+a summary of each cluster’s details, cluster size represents
+Table 4.
+network.
+
+the number of articles it includes. Silhouette is a parameter proposed by Kaufman and
+Rousseeuw
+evaluate
+the effect of clustering
+throughSilhouette
+network homogeneity
+[19].
+Cluster ID in 1990 toCluster
+Label
+Cluster Size
+Year (Average)
+The #0
+Silhouette value lies
+between
+0–1,
+and
+the
+closer
+it
+is
+to
+1,
+the
+higher
+the
+homogeneity
+stock market
+209
+0.656
+2006
+of the
+higherrate
+the credibility of141
+clustering. The
+publication year
+is the
+#1 network and the
+exchange
+0.698
+2013
+average
+of articles
+in this cluster.
+According to0.729
+Table 4, the largest
+#2 publication
+crudetime
+oil price
+forecasting
+126
+2012clusters are
+#1,price
+#2, #3,
+and #4. Their articles103
+focus on the exploration
+of the2014
+correla#3 Cluster #0,oil
+uncertainty
+0.749
+76
+0.854 rate, oil price
+2009
+tion #4
+between agricultural
+commoditycommodity
+prices and price
+the stock market,
+the exchange
+uncer#5 and crude Singapore
+economy
+70 most clusters’
+0.954Silhouette values
+1996 are
+tainty,
+oil price forecasting.
+In addition,
+#6 0.7, indicating
+agricultural
+employment
+1991
+above
+that these
+clusters are highly47
+homogeneous0.995
+and highly reliable.
+
+EMD-based neural
+#7
+network
+ensemble
+Table 4. Citation clustering
+network.
+#9
+long-run price
+#20 ID
+high commodity
+price
+Cluster
+Cluster Label
+#26
+high
+oil
+price
+#0
+stock market
+
+47
+
+0.969
+
+2001
+
+38
+
+1
+
+1993
+
+7
+0.996
+2008
+Cluster
+Size Silhouette
+Year (Average)
+4 209
+0.996
+2003
+0.656
+2006
+#1
+exchange rate
+141
+0.698
+2013
+#2 citation crude
+oil price
+forecasting
+126that the research
+0.729
+2012 of comThe
+network
+and cluster
+analysis show
+hotspots
+#3
+oil
+price
+uncertainty
+103
+0.749
+2014
+modity prices focus on influencing factors, impacts on macroeconomy, price forecasts,
+and
+#4
+agricultural commodity
+price hotspots 76
+0.854 network2009
+commodity
+financialization;
+moreover, these
+form a research
+centered on
+#5 The detailed
+Singapore
+economy
+70
+0.954
+1996
+oil prices.
+discussion
+is shown in Table 5:
+#6
+agricultural
+employment
+47
+0.995
+1991
+(1) Influencing factors of commodity prices (Cluster #1, #9, #20, #26)
+EMD-based neural network ensemThe
+have
+been widely
+focused on
+#7 influencing factors of commodity price fluctuations
+47
+0.969
+2001
+ble
+by many scholars. The contradiction between supply–demand and inventory change are
+generally considered the basic factors affecting international commodity price fluctuations.
+Since the operation of the global economy is fundamental to commodity supply and
+demand, but financial markets can have a spillover effect into the commodity market, the
+coordinated change of commodity prices becomes a goalpost for planners. Speculative
+factors have pushed up the prices of major commodities in the past, making the strong
+demand from emerging economies another reason for the overall rise in commodity prices.
+Factors including natural disasters, cyclical changes in production, and policy adjustments
+also considerably impact commodity prices. Differences in national economic systems also
+lead to differences in commodity prices between countries. The economic system affects
+the speed and strength of the transmission of international commodity prices to domestic
+commodity prices, and ultimately reflects in domestic prices.
+
+Sustainability 2022, 14, 9536
+
+12 of 22
+
+A substantial increase or decrease in commodity prices frequently results from a
+combination of multiple factors. Hamilton [20] studied some factors leading to changes
+in crude oil prices, including supply and demand, commodity speculation, monopolistic
+oligarchs, and resource depletion. Mueller et al. [21], analyzing the reasons why food prices
+doubled in the world from March 2007 to March 2008, found multiple factors, including
+greater energy and fertilizer costs, increased financial speculation in commodity markets,
+export restrictions, dollar depreciation, biofuel production increase, poor harvests, reduced
+world food reserves, increased foreign exchange reserves, and the continuing increase in
+world population and expectations of affluence.
+Academic circles have continuously analyzed the factors affecting commodity price
+fluctuations. Ranging from the basics of supply and demand to the impact of financial
+speculation and analysis of interruptive events, and from linear to nonlinear, the research
+in these directions continues to deepen comprehensively [22–29].
+(2)
+
+The impact of commodity price fluctuations on macro economy (Cluster #3, #4, #5, #6)
+
+The impact of commodity price fluctuations on the macroeconomy is another noteworthy research direction that has developed to a great extent.
+Building on the foundational work of Hamilton [30] four decades ago, scholars have
+segued to study the oil price–economic growth relationship [31–34] or taken up nonlinear
+perspective considerations [35–37]. Important in international trade, the relationship
+between commodity prices and exchange rates has also received key attention. Chen [38]
+used monthly panel data from G7 countries to study the long-term relationship between
+oil prices and real exchange rates, and found that a co-integration relationship between
+them and oil prices can better predict exchange rate trends. Other literature uses models
+such as the vector autoregressive model (VAR) and generalized autoregressive conditional
+heteroskedasticity model (GARCH) to select different countries as research objects to
+explore the relationship between commodity prices and exchange rates [39–46].
+The unemployment rate and consumer price (CPI) are also variables of concern.
+Papapetrou [47] used the VAR model to explore the relationship between oil prices and
+several macroeconomic variables in Greece, and found that changes in oil prices affect actual
+economic activities and employment. Ewing and Thompson [48] used Hodrick–Prescott
+and Baxter–King filters, and a full-sample asymmetric Christiano–Fitzgerald band-pass
+filter, to study the cyclical linkage between crude oil prices and production, consumer prices,
+unemployment, and stock prices. Guerrero-Escobar et al. [49] used 17 highly heterogeneous
+countries as samples to study responses of industrial activity, inflation, interest rates, and
+exchange rates to oil price shocks.
+The impact of commodity prices on sustainable development has received increasing
+attention in recent years, mainly energy prices. Borzuei et al. [8] used a threshold model
+to study the impact of energy prices on Iran’s sustainable development under different
+economic growth regimes, which is mainly achieved by promoting the use of renewable energy. Similarly, Li and Leung [50], Mukhtarov et al. [51], Karacan et al. [52], and
+Mukhtarov et al. [53] confirmed the role of energy prices on renewable energy consumption,
+and further affects the achievement of sustainable development goals. Umar et al. [54]
+found that effective energy price policies can reduce carbon emissions and achieve SDGs;
+Ma et al. [55], Sha et al. [56], Lee and Chong [57], Guo et al. [58], Malik et al. [59], and
+Ike et al. [60] also confirmed the same point.
+(3)
+
+Commodity price forecast (Cluster #2, #7)
+
+The drastic fluctuations in commodity prices have attracted many scholars to study
+commodity price forecasting. When the prices of commodities are relatively stable, forecasting pays more attention to the general trend of prices and the overall price range, that is,
+the first-order moment of prices. But when commodity prices fluctuate wildly, forecasting
+needs to focus on the degree of price volatility, that is, the second-order moment of prices.
+At present, there are mainly three methods to forecast commodity prices: (1) traditional econometric models, such as the autoregressive moving average model (ARMA),
+
+Sustainability 2022, 14, 9536
+
+13 of 22
+
+autoregressive integrated moving average model (ARIMA), and generalized autoregressive
+conditional heteroskedasticity model (GARCH); (2) machine learning methods, such as
+support vector machines (SVM), artificial neural networks (ANN), and Random Forest
+(RF); and (3) hybrid models combining the above two methods [61]. Traditional econometric models are based on strict linear assumptions and cannot introduce too many
+independent variables. Machine learning methods, because they can effectively distinguish
+random factors and capture hidden nonlinear characteristics that traditional econometric
+models fail to do, can introduce more independent variables to maximize the control of
+influencing factors.
+For the traditional econometric models, some scholars have proposed improved
+models for commodity price prediction. Herrera et al. [62] used high-frequency intra-day
+realized volatility data to evaluate the relative prediction performance of various models,
+including risk measurement models, the GARCH model, asymmetric GARCH model, splitintegral GARCH model, and Markov transformed GARCH model. Gupta and Wohar [63]
+used a qualitative vector autoregressive to predict monthly returns of oil and stocks. Based
+on the GARCH-X model, Gavriilidis et al. [64] used oil shocks of unknown sources as
+exogenous variables to study their impact on the accuracy of spot price predictions.
+For machine learning methods, scholars have attempted to decompose the sequence
+through singular spectrum analysis (SSA) or empirical mode decomposition (EMD), predict
+the decomposed sequence, and finally synthesize the prediction of the original sequence.
+Yu and Wang [65] proposed a neural network ensemble learning paradigm based on EMD
+for the forecast of world crude oil spot prices. Wang and Li [66] proposed SSA-NN, a neural
+network prediction method based on SSA smoothing, and used four criteria to compare the
+performance of this model with the basic neural network model. Their results show that
+the SSA-NN model is superior to the basic neural network model in terms of performance
+and accuracy to capture trend changes.
+More scholars have focused on innovating on basic machine learning methods to
+improve prediction accuracy. For example, Huang and Wu [61] used deep multi-core
+learning (DMKL) to predict oil prices, verified that the model was superior to the traditional
+model through real data, and significantly reduced prediction errors. Zhang and Na [67]
+proposed an agricultural product price prediction model that combines fuzzy information
+granulation, a mind evolutionary algorithm (MEA), and a support vector machine (SVM).
+Their experiments proved that the model has a higher prediction accuracy and faster
+calculation speed.
+In the hybrid model, many models combine the advantages of measurement models
+and machine learning to improve prediction accuracy. Zhang et al. [68] proposed the EEMD–
+PSO–LSSVM–GARCH hybrid model to predict oil prices. Kristjanpoller and Minutolo [69]
+used the ANN-GARCH model to predict oil spot and future prices, and successfully
+improved that prediction model in terms of volatility and spot prices.
+(4)
+
+Financialization of commodities (Cluster #0)
+
+As a foundational study on the relationship between commodity prices and financial
+markets, Sadorsky [70] adopted the VAR model that incorporated monthly data from
+January 1947 to April 1996 in the United States. It was found that the shocks of oil prices
+would significantly affect the actual returns of stocks, and this effect was more pronounced
+in 1986. Afterward, scholars have chosen various research objects and different time
+periods to analyze the impact of commodity price changes on stock price changes or stock
+returns [47,71–77].
+The 2006–2008 food crisis and the 2008 global financial crisis caused violent fluctuations in commodity prices. This led the academic community to conclude that basic supply
+and demand factors alone could not explain drastic changes in prices in a short period
+of time, sensing some of the change could be attributed to financial factors, such as the
+financialization of commodities, that is, significant index investment flows into commodity
+markets. Morana [78] found that since 2000, financial shocks have played an important role
+in boosting oil prices, and this effect has become more pronounced after 2008. Tilton [79]
+
+Sustainability 2022, 14, 9536
+
+14 of 22
+
+studied the impact of investor demand on commodity spot prices and predicted that, if the
+futures market is strong, a surge in investor demand will increase the price of the futures
+market and directly affect spot market price. However, when the futures market is relatively
+weak, investor behavior would have little impact on spot prices. The financialization of
+commodity markets has also resulted in excessive linkages between commodity prices [80].
+It can be seen that the research methods of these hot spots are constantly changing,
+which is mainly attributed to the arrival of the era of big data, the rapid development
+of machine learning for big data analysis, and the changes in the operation of the world
+economy. The volume, velocity, variety, and veracity of big data mean that the research data
+can be full samples or close to full samples, which makes the obtained information more
+valuable than traditional information; it also makes timely data analysis and prediction
+possible. Compared with statistical parameter modeling, machine learning methods do
+not need to give specific model assumptions or restrictions; rather, they learn and predict
+by an algorithm according to the objective function, making it more common and flexible [81]. On the other hand, practice affects the direction of theoretical research to a great
+extent. After the 2008 financial crisis, the degree of financialization of bulk commodities
+continued to deepen, and they were more vulnerable to emergencies and other market
+fluctuations. Therefore, scholars began to introduce the research methods of financial
+markets into the bulk commodity market, and pay attention to the volatility and linkage of
+bulk commodity prices.
+Table 5. Summary of research hotspots.
+Research Hotspots
+Influencing factors of
+commodity prices
+The impact of commodity
+price fluctuations on
+macroeconomy
+
+Commodity price forecast
+
+Financialization of
+commodities
+
+Representative Articles
+Hamilton (2009) [20]
+Dube and Vargas (2013) [25]
+Zhang et al. (2009) [29]
+Hamilton (1983) [30]
+Jiménez-Rodríguez (2005) [33]
+Lardic and Mignon (2006) [34]
+Ji et al. (2019) [42]
+Wu et al. (2012) [46]
+Yu et al. (2008) [65]
+Zhang et al. (2015) [68]
+Jammazi and Aloui (2012) [82]
+Zhao et al. (2017) [83]
+Sadorsky (1999) [70]
+Kilian and Park (2009) [74]
+Filis et al. (2011) [84]
+Sim and Zhou (2015) [85]
+
+Main Research Content
+
+•
+•
+•
+
+Supply and demand
+Speculative factors
+Extreme event
+
+•
+•
+•
+•
+
+Economic Growth
+Exchange rate
+Consumer price
+Unemployment rate
+
+•
+•
+•
+
+Econometric model
+Machine learning methods
+Mixed model
+
+•
+
+Linkage with the stock
+market
+Investor sentiment
+
+•
+
+4.2. Analysis of Landmark and Pivot Nodes
+The landmark node and pivot node are the key objects in citation network analysis.
+Identifying landmark points and turning points in the citation network can grasp the
+evolution path of the discipline and yield important research results. The landmark node is
+a nodule with a larger radius in the co-citation network and a higher citation frequency,
+and signals this is a representative article in the development of the discipline. The pivot
+node is the only connection point between the two clusters, which represents the shift of
+research focus. The landmark node and pivot node are highlighted with purple circles in
+the visualization results of the citation network (Figure 9).
+The solid arrows in Figure 9 represent the pivot node of the citation network, and the
+dashed arrow points to the landmark node of the citation network. Table 6 counts the pivot
+nodes, landmark nodes, and highly cited articles in the citation network.
+As shown in Figure 9 and Table 6, Lee et al. [86] and Mork et al. [87] are pivot nodes
+in the co-citation network. Lee et al. [86] studied the impact of oil price changes on the
+real GNP. Rather than a simple overall change, this oil price variation is a breakdown of
+
+Sustainability 2022, 14, x FOR PEER REVIEW
+
+Sustainability 2022, 14, 9536
+
+15 of 23
+
+Wu et al. (2012) [46]
+Yu et al. (2008) [65]
+15 of 22
+
+Econometric model
+Commodity price
+Zhang et al. (2015) [68]
+
+Machine learning methods
+forecast
+Jammazi and Aloui (2012) [82]
+
+Mixed model
+Zhao et al. (2017) [83]
+unexpected components beyond
+predictions
+and conditional variances in response to time
+Sadorsky
+(1999) [70]
+changes.
+In
+particular,
+they
+found
+that
+rising
+oil
+priceswould
+affect with
+economic
+growth,
+while
+Financialization of
+Kilian and Park (2009) [74]
+Linkage
+the stock
+market
+a decline
+will
+not.
+Mork
+et
+al.
+[87]
+studied
+oil
+price
+shocks
+in
+seven
+OECD
+countries
+and
+commodities
+Filis et al. (2011) [84]
+
+Investor sentiment
+their asymmetric effects Sim
+on GDP.
+The
+conclusions
+of
+these
+two
+articles
+are
+consistent
+with
+and Zhou (2015) [85]
+Hamilton [30]. Similarly, landmark node Hamilton [88] continued his previous research
+studying
+the nonlinear
+between changes in oil prices and economic growth;
+4.2. Analysis
+of Landmarkrelationship
+and Pivot Nodes
+he found that rising oil prices will affect the economy, but not falling prices. This research
+The landmark node and pivot node are the key objects in citation network analysis.
+series made a groundbreaking contribution.
+Identifying landmark points and turning points in the citation network can grasp the evoIn highly cited literature, Kilian [74] pioneered the decomposition of oil price shocks
+lution path of the discipline and yield important research results. The landmark node is a
+tonodule
+explain
+theaphenomenon
+ofthe
+large
+oil pricenetwork
+fluctuations.
+The linkage
+oil and
+prices
+with
+larger radius in
+co-citation
+and a higher
+citationbetween
+frequency,
+and
+the
+stock
+market
+has
+also
+been
+extensively
+studied
+[76,89–91].
+Kilian
+and
+Murphy
+signals this is a representative article in the development of the discipline. The pivot node[91]
+explored
+theconnection
+effect of speculative
+demand
+onclusters,
+the soaring
+oilrepresents
+price, andthe
+theshift
+other
+three
+is the only
+point between
+the two
+which
+of rearticles
+mentioned
+here
+studied
+the
+impact
+of
+oil
+price
+changes
+on
+stock
+market
+returns
+search focus. The landmark node and pivot node are highlighted with purple circles in
+from
+different perspectives.
+the visualization
+results of the citation network (Figure 9).
+
+Figure 9. Landmark and pivot nodes of the co-cited articles [86–88].
+Figure 9. Landmark and pivot nodes of the co-cited articles [86–88].
+
+The solid arrows in Figure 9 represent the pivot node of the citation network, and the
+dashed arrow points to the landmark node of the citation network. Table 6 counts the
+pivot nodes, landmark nodes, and highly cited articles in the citation network.
+Cited
+Cluster
+Author
+Title
+Journal
+As shown in Figure 9 and Table 6, Lee et al. [86] and Mork et al. [87]
+are pivot nodes
+Frequency
+ID
+in the co-citation network. Lee et al. [86] Pivot
+studied
+the
+impact
+of
+oil
+price
+changes
+on
+the
+real
+node
+GNP. Rather than a simple overall change, this oil price variation is a breakdown of unOil shocks
+and the and conditional variances in response to time
+expected
+beyond
+predictions
+Lee et components
+al.
+The Energy
+macroeconomy: The role of
+24
+#5
+(1995) [86]
+changes.
+In particular, they found that rising oil pricesJournal
+would affect economic growth,
+price variability
+while a decline willMacroeconomic
+not. Mork et al.
+[87] studied
+responses
+to oiloil price shocks in seven OECD countries
+Mork
+al.
+The
+Energy
+and
+theiretasymmetric
+effects
+on
+GDP.
+The
+conclusions
+of these
+two articles23are consistent
+price increases and decreases in
+#5
+(1994)
+[87]
+Journal
+with Hamilton [30]. Similarly,
+landmark
+node
+Hamilton
+[88]
+continued
+his previous reseven OECD countries
+search studying the nonlinear relationship between changes in oil prices and economic
+
+Table 6. Citation network landmarks, turning points, and highly cited articles.
+
+Landmark node
+
+Hamilton (2003)
+[88]
+
+What is an oil shock?
+
+Journal of
+Econometrics
+
+78
+
+#0
+
+295
+
+#0
+
+Highly cited articles
+
+Kilian (2009) [74]
+
+Not all oil price shocks are
+alike: Disentangling demand
+and supply shocks in the crude
+oil market
+
+American
+Economic
+Review
+
+Sustainability 2022, 14, 9536
+
+16 of 22
+
+Table 6. Cont.
+Author
+
+Title
+
+Journal
+
+Cited
+Frequency
+
+Cluster
+ID
+
+Kilian and Park
+(2009) [90]
+
+The impact of oil price shocks
+on the US stock market
+
+International
+Economic
+Review
+
+158
+
+#1
+
+Energy
+Economics
+
+115
+
+#0
+
+113
+
+#2
+
+89
+
+#1
+
+Park and Ratti
+(2008) [76]
+Kilian and
+Murphy (2014)
+[91]
+Basher et al.
+(2012) [89]
+
+Oil price shocks and stock
+markets in the US and 13
+European countries
+The role of inventories and
+speculative trading in the
+global market for crude oil
+Oil prices, stock returns and
+emerging stock markets
+
+Journal of
+Applied
+Econometrics
+Energy
+Economics
+
+4.3. Analysis of References with Citation Bursts
+Burst monitoring is a powerful tool for exploring hot topics. Finding burst articles can
+help to quickly identify emerging academic fields and research trends in a discipline such
+as commodity prices.
+In Figure 10, citation bursts identify that the stock market (Clusters #0), exchange rate
+(Clusters #1), crude oil price forecasting (Clusters #2), oil price uncertainty (Clusters #3),
+and agricultural commodity price (Clusters #4) are the hottest research sub-fields given the
+Sustainability 2022, 14, x FOR PEER REVIEW
+17 of 23
+number of references with citation bursts. This is consistent with our previous clustering
+research findings.
+
+Figure
+Figure 10.
+10. Reference
+Reference with
+with aa citation
+citation burst.
+burst.
+
+Table
+presents the
+the top
+top 10
+10 references
+references with
+with the
+the strongest
+strongest citation
+citation bursts.
+bursts. The
+The burst
+burst
+Table 77 presents
+period of
+of each
+each reference
+reference is
+is highlighted
+highlighted in
+in red
+red in
+in the
+the timeline
+timeline from
+from 1990
+1990 to
+to 2020.
+2020. Most
+period
+Most of
+of
+these
+oil prices
+prices on
+on macroeconomic
+macroeconomic variables,
+variables, such
+these papers
+papers have
+have studied
+studied the
+the impact
+impact of
+of oil
+such as
+as
+sectoral
+GDP growth,
+growth, and
+and inflation.
+inflation. There
+some studies
+studies on
+the
+sectoral job
+job creation,
+creation, real
+real GDP
+There are
+are also
+also some
+on the
+impact
+oil price
+price shocks
+shocks on
+on stock
+stock market
+market activities.
+activities.
+impact of
+of oil
+
+Sustainability 2022, 14, x FOR PEER REVIEW
+Sustainability 2022, 14, x FOR PEER REVIEW
+Table 7. Top 10 references with the strongest citation bursts.
+Sustainability 2022, 14, x FOR PEER REVIEW
+Table 7. Top 10 references with the strongest citation bursts.
+Sustainability 2022, 14, x FOR PEER REVIEW
+
+Table 7. Top 10 references with the strongest citation bursts.
+Table 7. Top 10 references with the strongest citation bursts.
+
+Author
+Title
+Journal
+Year
+Begin
+Table
+7. Top 10 references with the
+strongest citation
+bursts. Strength
+Author
+Title
+Journal
+Year
+Strength
+Begin
+Table
+7. Top 10 references with the
+strongest citation
+bursts.
+Author
+Title
+Journal
+Year
+Strength
+Begin
+7. Top 10and
+references
+with the
+strongest citationYear
+bursts.
+Sustainability
+2022, 14, 9536
+Author
+Title
+Journal
+Strength
+Begin
+Davis
+and
+SectoralTable
+job
+creation
+deTable
+7.
+Top
+10
+references
+with
+the
+strongest
+citation
+bursts.
+ofstrongest
+Monetary
+Author
+Journal
+Year
+Strength
+Begin
+Davis
+and
+SectoralTable
+job Title
+creation
+de- Journal
+7. Top 10and
+references
+with the
+citation
+bursts.
+Haltiwanger
+struction
+responses
+oil
+price
+2001
+14.41
+2003
+Davis
+and
+SectoralTable
+job Title
+creation
+de- Journal
+ofstrongest
+Monetary
+Author
+Journal
+Year
+Strength
+Begin
+7. Topto
+10and
+references
+with the
+citation
+bursts.
+Davis
+and
+Sectoral
+job
+creation
+and
+deEconomics
+Journal
+of
+Monetary
+Haltiwanger
+struction
+responses
+to
+oil
+price
+2001
+14.41
+2003
+Author
+Title
+Journal
+Year
+Strength
+Begin
+Journal
+of
+Monetary
+[92]
+changes
+Haltiwanger
+struction
+responses
+to
+oil
+price
+2001
+14.41
+2003
+Economics
+Davis
+and
+Sectoral
+job
+creation
+and
+deAuthor
+Title
+Journal
+Year
+Strength
+Begin
+Table
+7.
+Top
+10
+references
+with
+the
+strongest
+citation
+bursts.
+Haltiwanger
+struction
+toand
+oil price
+2001
+14.41
+2003
+Economics
+[92]and
+changes
+Journal
+of Monetary
+Author
+Title
+Journal
+Year
+Strength
+Begin
+Davis
+Sectoral responses
+job
+creation
+de- Journal
+Economics
+of
+Economet[92]
+changes
+Haltiwanger
+struction
+responses
+toand
+oil price
+2001
+14.41
+2003
+Author
+Title
+Journal
+Strength
+Begin
+Journal
+ofEconometMonetary Year
+Davis
+Sectoral
+job
+creation
+de- Journal
+[92]and
+Hamilton
+[88]
+Whatresponses
+ischanges
+an
+oil shock?
+2003
+of
+Economics
+Haltiwanger
+struction
+toand
+oil price
+2001 Year 37.64
+14.41Strength 2005
+2003
+Davis
+and
+Sectoral
+job
+creation
+de- Journal
+Journal
+of
+Monetary
+rics
+of
+EconometAuthor
+Title
+Journal
+Begin
+Hamilton
+[88]
+What
+is
+an
+oil
+shock?
+2003
+37.64
+2005
+[92]
+changes
+Economics
+Davis
+and
+Sectoral
+job
+creation
+and
+deJournal of
+of
+Monetary
+Haltiwanger
+toand
+oil price
+2001
+14.41
+2003
+Journal
+EconometHamilton
+[88] struction
+Whatresponses
+is
+an
+oil shock?
+2003
+37.64
+2005
+rics
+Davis
+and
+Sectoral
+job
+creation
+de[92]
+changes
+Journal
+of
+Monetary
+Haltiwanger
+struction
+responses
+to
+oil
+price
+2001
+14.41
+2003
+Economics
+Hamilton
+[88]
+What
+is
+an
+oil
+shock?
+2003
+37.64
+2005
+Sadorsky
+Oil
+price
+shocks
+and
+stock
+rics
+Journal
+of
+EconometDavis and struction Sectoral
+job to
+creation
+andJournal
+of
+Monetary
+Haltiwanger
+responses
+oil
+price
+2001
+14.41
+2003
+Economics
+[92]
+Energy
+Economics
+1999
+10.36
+2005
+Sadorsky
+OilWhat
+price
+shocks
+stock
+Hamilton
+ischanges
+an oil and
+shock?
+2003
+37.64
+Journal
+of Monetary
+Haltiwanger
+struction
+responses
+to oil
+price
+2001
+2003
+Journal
+ofrics
+EconometEconomics
+[92] [88]
+changes
+Haltiwanger
+destruction
+responses
+to oil price
+2001 14.41
+14.41
+2003
+[70]
+market
+activity
+Sadorsky
+OilWhat
+price
+shocks
+and
+stock
+Energy
+Economics
+1999
+10.36
+2005
+rics
+Economics
+Hamilton
+[88]
+is
+an
+oil
+shock?
+2003
+37.64
+[92]
+changes
+Journal
+of
+EconometEconomics
+Sadorsky
+Oil
+price
+shocks
+and
+stock
+Energy
+Economics
+1999
+10.36
+2005
+[70]
+market
+activity
+[92]
+changes
+rics
+Journal
+of
+Economet[92]
+changes
+Hamilton
+[88]
+What
+is
+an
+oil
+shock?
+2003
+37.64
+2005
+EnergyofEconomics
+1999
+10.36
+Jiménez-Rodríguez
+OilOil
+price
+shocks
+and
+real
+GDP Journal
+[70] [88]
+market
+Sadorsky
+price
+and
+stock
+Economet- 2003
+Hamilton
+What
+isshocks
+an activity
+oil
+shock?
+37.64
+2005
+[70] [88]
+market
+Jiménez-Rodríguez
+OilOil
+price
+shocks
+and
+real
+GDP Journal
+Energyofrics
+Economics
+1999
+10.36
+Journal of 2003
+EconometSadorsky
+price
+shocks
+and
+stock
+Hamilton
+What
+is
+an activity
+oil
+shock?
+37.64
+2005
+rics
+and
+Sánchez
+growth:
+empirical
+evidence
+Applied
+Economics
+2005
+17.53
+2007
+Jiménez-Rodríguez
+Oil
+price
+shocks
+and
+real
+GDP
+Hamilton
+[88]
+What
+is
+an
+oil
+shock?
+2003
+37.64
+2005
+[70]
+market
+activity
+Hamilton
+[88]
+What
+is
+an
+oil
+shock?
+2003
+37.64
+2005
+Energy
+Economics
+1999
+10.36
+rics
+Sadorsky
+Oil
+price
+shocks
+and
+stock
+Econometrics 2005
+Jiménez-Rodríguez
+Oil
+price
+shocks
+and
+real
+GDP Appliedrics
+and
+Sánchez
+growth:
+empirical
+evidence
+Economics
+17.53
+2007
+[70]
+market
+activity
+Sadorsky
+Oil
+price
+shocks
+and
+stock
+Energy
+Economics
+1999
+10.36
+2005
+[33]
+for
+some
+OECD
+countries
+and
+Sánchez
+growth:
+empirical
+evidence
+Applied
+Economics
+2005
+17.53
+2007
+Jiménez-Rodríguez
+Oil
+price
+shocks
+and
+real
+GDP
+Sadorsky
+Oil
+price
+shocks
+and
+stock
+Sadorsky
+Oil
+price
+shocks
+and
+stock
+market
+Energy Economics
+1999
+10.36
+2005
+[70]
+market
+activity
+and
+Sánchez
+growth:
+empirical
+evidence
+Economics
+2005 1999 10.36
+17.53 10.36
+2007
+[33]
+for
+some
+OECD
+countries
+Economics
+2005
+Sadorsky
+Oil
+price
+shocks
+and
+stock
+Jiménez-Rodríguez
+Oil
+price
+shocks
+and
+real
+GDP Applied
+Energy Energy
+Economics
+1999
+2005
+[70]
+market
+activity
+Are
+oil
+shocks
+inflationary?
+[33]
+for
+some
+OECD
+countries
+activity
+[70]
+and
+Sánchez
+growth:
+empirical
+evidence
+Applied
+Economics
+2005
+17.53
+2007
+Energy Economics
+1999
+10.36
+2005
+[70]
+market
+activity
+Jiménez-Rodríguez
+Oil
+price
+shocks
+and
+real GDP Applied
+[33]
+for
+some
+OECD
+countries
+Are
+oil
+shocks
+inflationary?
+[70]
+market
+activity
+and
+Sánchez
+growth:
+empirical
+evidence
+Economics
+2005
+17.53
+2007
+Jiménez-Rodríguez
+Oil
+price
+shocks
+and
+real
+GDP
+Jiménez-Rodríguez
+Oilshocks
+price
+shocks
+and GDP
+real GDP
+Asymmetric
+and
+nonlinear
+Journal of
+Money,
+Are
+oil
+inflationary?
+[33]
+for
+some
+OECD
+countries
+Jiménez-Rodríguez
+Oil
+price
+shocks
+and
+real
+and
+Sánchez
+growth:
+empirical
+evidence
+Applied
+Economics
+2005 2005 12.44
+17.53 17.53
+Are
+oil
+shocks
+inflationary?
+2002
+2007
+Hooker
+[93]
+Asymmetric
+and
+nonlinear
+JournalApplied
+of
+Money,
+and
+Sánchez
+growth:
+empirical
+evidence
+for
+Economics
+2007
+Jiménez-Rodríguez
+Oil
+price
+shocks
+and
+real
+GDP
+[33]
+for
+some
+OECD
+countries
+and
+Sánchez
+growth:
+empirical
+evidence
+Applied
+Economics
+2005
+17.53
+2007
+and
+Banking
+specifications
+versus
+changes Credit,
+Asymmetric
+and
+nonlinear
+Journal
+of Money,
+2002
+12.44
+Hooker
+[93]
+Are
+oil
+shocks
+inflationary?
+and
+Sánchez
+growth:
+empirical
+evidence
+Applied
+Economics
+2005
+17.53
+2007
+[33]
+for
+some
+OECD
+countries
+[33]
+some
+OECD
+countries
+Asymmetric
+and
+nonlinear
+Journal
+of
+Money,
+2002
+12.44
+2007
+Hooker
+[93]
+and
+Banking
+specifications
+versus
+changes Credit,
+and
+Sánchez
+growth:
+empirical
+evidence
+Applied
+Economics
+2005
+17.53
+2007
+Are
+oil
+shocks
+inflationary?
+[33]
+for
+some
+OECD
+countries
+2002
+12.44
+2007
+Hooker
+inOECD
+regime
+Banking
+specifications
+versus
+changes Credit,
+Asymmetric
+and
+nonlinear
+Journaland
+of Money,
+[33] [93]
+for some
+countries
+Are
+oil
+shocks
+inflationary?
+Are
+oil
+shocks
+inflationary?
+Banking
+specifications
+versus
+changes Credit,
+inOECD
+regime
+2002
+12.44
+2007
+Hooker
+[33] [93]
+for
+some
+countries
+Asymmetric
+and
+nonlinear
+Journaland
+of Money,
+Are
+oil
+shocks
+inflationary?
+Oil
+price
+shocks
+and
+the
+macin
+regime
+Credit,
+Banking
+specifications
+versus
+changes
+and
+nonlinear
+Journal
+of Money,2002
+12.44
+2007
+Hooker
+[93]
+Are
+oilAsymmetric
+shocks
+inflationary?
+Asymmetric
+and
+nonlinear
+Journaland
+of Money,
+in regime
+Hooker [93] Oil
+2007
+price
+shocks
+and
+the
+mac- Credit,
+Are
+oil
+shocks
+inflationary?
+and
+Banking
+specifications
+versus
+changes
+Asymmetric
+and
+nonlinear
+Journal
+of Money,
+2002 2002 11.85
+12.44 12.44
+2007
+Hooker
+[93]
+specifications
+versus
+changes
+in Energy
+Credit,
+and Banking
+roeconomy:
+what
+has
+been
+The
+Journal
+2004
+Jones
+et
+al.
+[94]
+Oil
+price
+shocks
+and
+the
+macin
+regime
+Asymmetric
+and
+nonlinear
+Journal
+of
+Money,
+2002
+12.44
+2007
+Hooker
+[93]
+Credit,
+and
+Banking
+specifications
+versus
+changes
+Oil
+price
+shocks
+and
+the
+macroeconomy:
+what
+has
+been Credit,
+The
+Energy
+Journal
+2004
+11.85
+Jones
+et al.[93]
+[94]
+Asymmetric
+and
+nonlinear
+Journal
+of Money,
+in regime
+2002
+12.44
+2007
+Hooker
+regime
+and
+Banking
+specifications
+versus
+changes
+learned
+since
+1996
+roeconomy:
+what
+has
+been
+The
+Energy
+Journal
+2004
+11.85
+2007
+Jones
+et al.
+[94] Oil
+price
+shocks
+and
+the
+mac- Credit,
+2002
+12.44
+2007
+Hooker
+[93]
+and Banking
+specifications
+versus
+changes
+in price
+regime
+roeconomy:
+what
+has
+been
+The
+Energy
+Journal
+2004
+11.85
+2007
+Jones
+et al.
+[94]
+Oil
+shocks
+and
+the
+learned
+since
+1996
+Credit,
+and
+Banking
+specifications
+versus
+changes
+Oil
+price
+shocks
+and
+the
+macin
+regime
+Oil
+price
+shocks,
+stock
+market,
+learned
+since
+1996
+roeconomy:
+what
+has
+been
+The Energy
+Journal
+2004 2004 11.85 11.85
+2007
+Jones
+et al.
+in regime
+Jones
+et [94]
+al. [94] Oil
+macroeconomy:
+what
+has been
+The Energy
+Journal
+2007
+Oil
+price
+shocks
+and
+the
+maclearned
+since
+1996
+price
+shocks,
+stock
+market,
+inactivity
+regime
+roeconomy:
+what
+has
+been
+Energy
+Journal
+2004
+11.85
+2007
+Jones
+et al.
+[94]
+Oil
+price
+shocks
+and
+the
+mac- The
+economic
+and
+emEnergy
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47]
+Oil
+price
+shocks,
+stock
+market,
+learned
+since
+1996
+learned
+since
+1996
+Oil
+price
+shocks
+and
+the
+macroeconomy:
+what
+has
+been
+The
+Energy
+Journal
+2004
+11.85
+2007
+Jones
+et
+al.
+[94]
+price
+shocks,
+stock
+market,
+economic
+activity
+and
+emEnergy
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47] Oil
+Oil
+price
+shocks
+the
+maclearned
+since
+1996
+roeconomy:
+what
+has
+been
+The
+Energy
+Journal
+2004
+11.85
+2007
+Jones et al. [94]
+Oilshocks,
+price
+shocks,
+stock
+market,
+ployment
+inand
+Greece
+economic
+activity
+and
+emEnergy
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47] Oil
+price
+stock
+market,
+roeconomy:
+what
+has
+been
+The
+Energy
+Journal
+2004
+11.85
+2007
+Jones et al. [94]
+learned
+since
+1996
+economic
+activity
+and
+emEnergy
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47]
+ployment
+in
+Greece
+roeconomy:
+what
+has
+been
+The
+Energy
+Journal
+2004
+11.85
+2007
+Jones
+et
+al.
+[94]
+Oil
+price
+shocks,
+stock
+market,
+Papapetrou
+[47]
+economic
+activity
+and
+Energy
+Economics
+2001
+11.25
+2007
+learned
+since
+1996
+Barsky
+and Kilian
+Oil
+and
+theactivity
+macroeconomy
+Economic
+ployment
+in Greece
+economic
+and
+em- Journal
+Energyof
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47] Oil
+learned
+since
+1996
+price
+shocks,
+market,
+ployment
+instock
+Greece
+2004
+24.28
+2008
+Barsky
+and Kilian
+Oil
+and
+the
+macroeconomy
+Journal
+of
+Economic
+employment
+in
+Greece
+learned
+since
+1996
+economic
+activity
+and
+emEnergy
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47]
+Oil
+price
+shocks,
+stock
+market,
+[95]
+since
+1970s
+Perspectives
+Barsky
+and Kilian
+Oil
+and
+the the
+macroeconomy
+Journal
+of
+Economic 2001
+2004
+24.28
+2008
+ployment
+in
+Greece
+price
+shocks,
+stock
+market,
+economic
+and
+em- since
+Energy
+Economics
+2007
+Papapetrou
+[47] Oil
+Oilsince
+and
+the
+macroeconomy
+Journal
+of Economic
+Barsky
+and
+Kilian
+Oil
+and
+theactivity
+macroeconomy
+Journal
+of
+Economic
+2004 2004 11.25
+24.28 24.28
+2008
+[95]
+the
+1970s
+Perspectives
+Oil
+price
+shocks,
+stock
+market,
+ployment
+in
+Greece
+economic
+activity
+and
+emEnergy
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47]
+Barsky
+and
+Kilian
+[95]
+2008
+2004
+24.28
+2008
+Oil
+shocks
+and
+aggregate
+mac[95]
+since
+the
+1970s
+Perspectives
+Barsky
+and Kilian
+Oil
+and
+theactivity
+macroeconomy
+Journal
+of
+Economic
+economic
+and emEnergy
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47] Oil
+the
+1970s
+Perspectives
+ployment
+in
+Greece
+[95]
+since
+the
+1970s
+Perspectives
+Journal
+of
+Money,
+shocks
+and
+aggregate
+mac2004
+24.28
+2008
+economic
+activity
+and
+emEnergy
+Economics
+2001
+11.25
+2007
+Papapetrou
+[47]
+Barsky
+and
+Kilian
+Oil
+and
+the
+macroeconomy
+Journal
+of
+Economic
+ployment
+in
+Greece
+Bernanke
+et al.
+[96] roeconomic
+behavior:
+role Journal
+2004
+19.11
+2008
+Oil
+shocks
+and
+aggregate
+macOil
+shocks
+andThe
+aggregate
+Journal
+ofEconomic
+Money,
+since
+the
+Perspectives
+2004
+24.28
+2008
+ployment
+in1970s
+Greece
+Barsky [95]
+and
+Oilshocks
+and
+the
+macroeconomy
+of
+Journal
+of Money,2004
+Oil
+and
+aggregate
+Credit,
+and
+Banking
+Journal
+ofEconomic
+Money,
+Bernanke
+et Kilian
+al.
+[96]
+roeconomic
+behavior:
+ThemacroleThe
+19.11
+2008
+ployment
+in1970s
+Greece
+[95]
+since
+the
+Perspectives
+Barsky
+and
+Kilian
+Oil
+and
+the
+macroeconomy
+Journal
+of
+Bernanke
+et
+al.
+[96]
+macroeconomic
+behavior:
+2004
+19.11
+2008
+2004
+24.28
+2008
+Journal
+of
+Money,
+of
+monetary
+policy:
+A
+reply
+Bernanke
+et
+al.
+[96]
+roeconomic
+behavior:
+The
+role
+19.11
+Credit,
+and
+Banking
+Oil
+shocks
+and
+aggregate
+macBarsky [95]
+and
+Oilmonetary
+and
+thebehavior:
+macroeconomy
+Journal
+of Economic
+Credit,
+and Banking
+2004
+24.28
+2008
+since
+the
+1970s
+Perspectives
+Bernanke
+et Kilian
+al. [96] Oil
+roeconomic
+role
+2004
+19.11
+2008
+Credit,
+and
+Banking
+of
+policy:
+AThe
+reply
+Journal
+ofEconomic
+Money,
+role
+of
+monetary
+policy:
+A
+reply
+Barsky [95]
+and
+Kilian
+Oil
+and
+the
+macroeconomy
+Journal
+of
+shocks
+and
+aggregate
+mac2004
+24.28
+2008
+since
+the
+1970s
+Perspectives
+Credit,
+and
+Banking
+Oil
+prices,
+economic
+activity
+Quarterly
+Reof monetary
+policy:
+A
+reply
+Bernanke
+et al. [96] Oil
+roeconomic
+behavior:
+The
+role The
+19.11
+2004
+24.28
+2008
+Journal
+ofQuarterly
+Money,
+[95]
+the
+1970sA
+and
+aggregate
+macOilsince
+prices,
+economic
+activity
+and
+The
+of shocks
+monetary
+policy:
+reply
+Oil
+prices,
+economic
+ThePerspectives
+Quarterly
+Re- Review
+and
+Banking
+[95]
+since
+the
+1970sactivity
+Perspectives
+Bernanke
+etal.
+al.[97]
+[96] Oil
+roeconomic
+behavior:
+The
+role Credit,
+2004
+19.11
+2008
+shocks
+and
+aggregate
+macJournal
+of
+Money,
+and
+inflation:
+evidence
+for
+view
+of
+Economics
+2005
+14.73
+2008
+Cunado
+et
+Oil
+prices,
+economic
+activity
+The
+Quarterly
+Reof
+monetary
+policy:
+A
+reply
+Credit,
+and
+Banking
+shocks
+and
+aggregate
+macCunado
+et [97]
+al.
+[97]Oil
+inflation:
+evidence
+for
+some
+of
+and2004
+2005 19.11
+14.73
+2008
+Journal
+ofEconomics
+Money,
+Bernanke
+etal.
+al.
+[96]
+roeconomic
+behavior:
+The
+role
+2008
+Oil
+prices,
+economic
+activity
+The
+Quarterly
+Reand
+inflation:
+evidence
+for
+view
+of
+Economics
+2005
+14.73
+2008
+Cunado
+et
+Oil
+shocks
+and
+aggregate
+macof
+monetary
+policy:
+A
+reply
+Journal
+of
+Money,
+Bernanke
+etal.
+al.[97]
+[96] roeconomic
+behavior:
+Thefor
+role Credit,
+2004
+19.11
+2008
+and
+Banking
+some
+Asian
+countries
+and
+Finance
+and
+inflation:
+evidence
+view
+of
+Economics
+2005
+14.73
+2008
+Cunado et
+Oil
+prices,
+economic
+activity
+The
+Quarterly
+ReAsian
+countries
+Finance
+Journal
+of
+Money,
+Bernanke
+et
+al.
+[96]
+roeconomic
+behavior:
+The
+role
+2004
+19.11
+2008
+Credit,
+and
+Banking
+of
+monetary
+policy:
+A
+reply
+and
+inflation:
+evidence
+for
+view
+ofand
+Economics
+2005
+14.73
+2008
+Cunado et
+some
+Asian
+countries
+Finance
+Bernanke
+etal.
+al.[97]
+[96] roeconomic
+behavior:
+The
+role Credit,
+2004
+19.11
+2008
+Oil
+prices,
+economic
+activity
+Theand
+Quarterly
+ReBanking
+of
+monetary
+policy:
+A
+reply
+some
+Asian
+countries
+and
+Finance
+and
+inflation:
+evidence
+for Credit,
+view
+ofand
+Economics
+2005
+14.73
+2008
+Cunado et al. [97] Oil
+Banking
+of
+monetary
+policy:
+A
+reply
+prices,
+economic
+activity
+The
+Quarterly
+Resome
+Asian
+countries
+and
+Finance
+of
+monetary
+policy:
+A
+reply
+and
+inflation:
+evidence
+for
+view
+of Economics
+2005
+14.73
+2008
+Cunado et al. [97] Oil
+prices,
+economic
+activity
+The Quarterly
+Resome
+Asian
+countries
+prices,
+economic
+activity
+Theand
+Quarterly
+Reand
+inflation:
+evidence
+for
+view
+of Finance
+Economics
+2005
+14.73
+2008
+Cunado et al. [97] Oil
+Oil
+prices,
+economic
+activity
+The
+Quarterly
+Resome
+Asian
+countries
+and
+Finance
+and inflation: evidence for
+view of Economics
+2005
+14.73
+2008
+Cunado et al. [97]
+and
+inflation:
+view
+of Finance
+Economics
+2005
+14.73
+2008
+Cunado et al. [97]
+some
+Asianevidence
+countriesfor
+and
+and
+inflation:
+view
+of Finance
+Economics
+2005
+14.73
+2008
+Cunado et al. [97]
+some
+Asianevidence
+countriesfor
+and
+some Asian countries
+and Finance
+some Asian countries
+and Finance
+
+18 of 23
+18 of 23
+18 of 23
+18 of 23
+
+End
+End
+End
+End
+End
+2011
+End
+2011
+End
+2011
+End
+2011
+End
+2011
+End
+2013
+2011
+End
+2013
+2011
+2013
+2011
+2013
+2011
+2009
+2013
+2011
+2011
+2009
+2013
+2009
+2013
+2009
+2013
+2009
+2013
+2015
+2013
+2013
+2009
+2015
+2009
+2015
+2009
+2015
+2009
+2009
+2015
+2009
+2015
+2015
+2011
+2015
+2015
+2011
+2015
+2011
+2015
+2011
+2011
+2011
+2011
+2011
+2014
+2011
+2014
+2011
+2014
+2011
+2014
+2014
+2014
+2014
+2011
+2014
+2011
+2014
+2011
+2014
+2011
+2014
+2011
+2011
+2014
+2011
+2014
+2011
+2014
+2011
+2014
+2014
+2011
+2014
+2011
+2014
+2014
+2014
+2014
+2014
+2014
+2014
+2014
+2014
+2014
+2015
+2015
+2014
+2015
+2014
+2015
+2014
+2015
+2014
+2015
+2015
+2015
+2015
+2015
+2015
+
+Burst Period: 1990–2020
+Burst Period: 1990–2020
+Burst Period: 1990–2020
+Burst Period: 1990–2020
+Burst Period: 1990–2020
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+Burst Period: 1990–2020
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+Burst Period: 1990–2020
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+Burst Period: 1990–2020
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+Burst Period: 1990–2020
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+Burst Period: 1990–2020
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+Burst Period: 1990–2020
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▂▂▂▂▂
+
+ClusCluster
+ClusCluster
+17 of 22
+ter
+Cluster
+Clus#0
+ter
+Clus#0
+ter
+Clus#0
+Cluster
+#0
+Cluster
+#0
+ter
+#0
+ter
+#0
+Cluster
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#0
+#4
+#0
+#4
+#0
+#4
+#4
+#0
+#4
+#0
+#4
+#0
+#4
+#0
+#0
+#4
+#0
+#4
+#0
+#4
+#0
+#4
+#0
+#0
+#0
+#0
+#0
+#0
+
+Sustainability 2022, 14, 9536
+
+18 of 22
+
+5. Conclusions and Future New Research Direction
+A large number of scholarly papers on commodity prices have emerged, and the
+number of publications and citations has increased exponentially in recent years. This
+study used bibliometrics to study 1671 articles in this field, ascertaining through statistical
+analysis that articles in the field are mostly published in journals of energy economics,
+such as Energy Economic and Energy Policy. Based on the number of publications, the
+United States, China, and Australia ranked top in terms of research in this field. Half of
+the top ten research institutions represented in the sampled papers are based in China,
+in educational research institutions such as the Chinese Academy of Sciences and Hunan
+University. These institutions formed a close collaborative relationship. Through analyzing
+the core authors, as designated in our study, we found that Wang, Tiwari, Hammoudeh, and
+Gupta have made leading contributions. Through the citation network and cluster analysis,
+this study found that commodity price research hotspots emphasize four major aspects,
+namely, influencing factors, impact on the macroeconomy, price prediction, and commodity
+financialization. Based on our analyses, we propose two future research directions that are
+most likely to unfold in the near future:
+(1)
+
+Increased attention to the impact of major events
+
+The violent volatility of commodities is often impacted by major events, such as a
+sharp increase in crude oil prices caused by the two oil crises in the 1970s, the overall decline
+in commodity prices caused by the financial crisis in 2008, and the decline in commodity
+prices and subsequent sharp increases in the prices of metal raw materials such as steel and
+copper in 2019 caused by COVID-19.
+Since economic uncertainty caused by the unpredictable onset of major financial,
+weather-related, health-related, political, and economic events will directly lead to abnormal
+fluctuations in commodity prices, which will seriously disrupt the supply and demand of
+commodities [98], affect the operation of the macro-level economy, endanger enterprises,
+and adversely affect the stability and sustainable development of the country, research on
+the impact of major events and related countermeasures is an important direction. Going
+forward, such research in this direction needs to develop methodologies on the basis of
+existing ones, so as to integrate theory and practice.
+(2)
+
+Method innovation and selection of commodity price forecasting
+
+The prediction of commodity prices has long been a hot research topic and will
+continue to be developed in the future. Forecasting methods have also developed from
+traditional time series models to machine learning, and then to a combination of the two.
+Many scholars have improved their forecasting methods and their accuracy based on new
+theories and models.
+In our subsequent research, the data sources will be extended to text, video, and
+images; however, the most important thing is to carefully select predictor variables and
+specify the economic significance of the predicted results. Forecasting needs to identifying
+causality from data, being problem-oriented, starting from reality, rather than purely
+data-driven, and be able to use the predicted results in practice.
+In addition to predicting research trends, the prediction of breakpoints and turning
+points also deserves scholarly attention. At present, scholars have performed change
+point analysis and statistical inference, and have carried out a probabilistic simulation of
+this mutation rule, in order to quickly identify and even predict the mutation point [99].
+Successfully predicting the turning point can help stakeholders to identify and prevent
+risks, and achieve sustainable economic development [100].
+The research of the article has certain policy implications. Commodities have always
+been an important material basis for people’s life and production. In recent years, the
+drastic fluctuations in commodity prices have caused great trouble to the operation of the
+macro-economy, the sustainable development of the industry, and the normal production
+of enterprises. Therefore, we must pay close attention to changes in commodity prices,
+establish corresponding forecasting and early warning mechanisms, and try to avoid their
+
+Sustainability 2022, 14, 9536
+
+19 of 22
+
+adverse effects on the economy as much as possible. Taking China as an example, based
+on the current cooperation network, we can establish commodity research centers with
+several major research institutions as the core (Chinese Academy of Sciences, University
+of Chinese Academy of Sciences, Xiamen University, and Beihang University), carry out
+relevant research, and develop corresponding prediction and early warning systems; thus,
+this will provide a protective barrier for the macroeconomy.
+Author Contributions: Conceptualization, S.W. and J.J.; methodology, Y.H. and S.W.; software, Q.Z.;
+investigation, Y.H.; resources, Y.H.; data curation, Q.Z.; writing—original draft preparation, Q.Z.;
+writing—review and editing, Y.H., S.W., and J.J.; visualization, Q.Z.; supervision, S.W. and J.J.; project
+administration, J.J. All authors have read and agreed to the published version of the manuscript.
+Funding: This research was funded by National Natural Science Foundation of China, grant
+number 72073124.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+
+7.
+8.
+9.
+10.
+11.
+12.
+
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+
+Jacks, D.S.; Stuermer, M. What drives commodity price booms and busts? Energy Econ. 2020, 85, 104035. [CrossRef]
+Ghoshray, A. Do international primary commodity prices exhibit asymmetric adjustment? J. Commod. Mark. 2019, 14, 40–50.
+[CrossRef]
+Carter, C.A.; Rausser, G.C.; Smith, A. Commodity booms and busts. Annu. Rev. Resour. Econ. 2011, 3, 87–118. [CrossRef]
+Paolantonio, A. OECD-FAO, Agricultural Outlook 2008–2017; Firenze University Press: Firenze, Italy, 2008; pp. 119–123. Available
+online: http://digital.casalini.it/10.1400/185067 (accessed on 4 October 2021).
+Knez, S.; Šimić, G.; Milovanović, A.; Starikova, S.; Županič, F.Ž. Prices of conventional and renewable energy as determinants of
+sustainable and secure energy development: Regression model analysis. Energy Sustain. Soc. 2022, 12, 6. [CrossRef]
+Wang, G.; Sharma, P.; Jain, V.; Shukla, A.; Shahzad Shabbir, M.; Tabash, M.I.; Chawla, C. The relationship among oil prices
+volatility, inflation rate, and sustainable economic growth: Evidence from top oil importer and exporter countries. Resour. Policy
+2022, 77, 102674. [CrossRef]
+Sajid, M.J.; Yu, Z.; Rehman, S.A. The coal, petroleum, and gas embedded in the sectoral demand-and-supply chain: Evidence
+from China. Sustainability 2022, 14, 1888. [CrossRef]
+Borzuei, D.; Moosavian, S.F.; Ahmadi, A. Investigating the dependence of energy prices and economic growth rates with emphasis
+on the development of renewable energy for sustainable development in Iran. Sustain. Dev. 2022, 1–7. [CrossRef]
+Gracia, A.; Gómez, M.I. Food sustainability and waste reduction in Spain: Consumer preferences for local, suboptimal, and/or
+unwashed fresh food products. Sustainability 2020, 12, 4148. [CrossRef]
+Khan, M.M.; Akram, M.T.; Janke, R.; Qadri, R.W.K.; Al-Sadi, A.M.; Farooque, A.A. Urban horticulture for food secure cities
+through and beyond COVID-19. Sustainability 2020, 12, 9592. [CrossRef]
+Yang, M.X.; Chen, W.S.; Zhou, Q.Y.; Yang, B.Y. Visualizing the landscape and trend of Chinese leadership research: 1949–2018.
+Nankai Bus. Rev. 2019, 22, 80–94.
+Chiroma, H.; Abdul-kareem, S.; Shukri Mohd Noor, A.; Abubakar, A.I.; Sohrabi Safa, N.; Shuib, L.; Fatihu Hamza, M.; Ya’u
+Gital, A.; Herawan, T. A review on artificial intelligence methodologies for the forecasting of crude oil price. Intell. Autom. Soft
+Comput. 2016, 22, 449–462. [CrossRef]
+Ederington, L.H.; Fernando, C.S.; Hoelscher, S.A.; Lee, T.K.; Linn, S.C. A review of the evidence on the relation between crude oil
+prices and petroleum product prices. J. Commod. Mark. 2019, 13, 1–15. [CrossRef]
+Ben Abdallah, M.; Fekete-Farkas, M.; Lakner, Z. Exploring the link between food security and food price dynamics: A bibliometric
+analysis. Agriculture 2021, 11, 263. [CrossRef]
+Leung, X.Y.; Sun, J.; Bai, B. Bibliometrics of social media research: A co-citation and co-word analysis. Int. J. Hosp. Manag. 2017,
+66, 35–45. [CrossRef]
+Van Eck, N.J.; Waltman, L. Visualizing Bibliometric Networks; Springer: Cham, Switzerland, 2014; pp. 285–320. [CrossRef]
+Liu, H.; Li, X.; Wang, S. A bibliometric analysis of 30 years of platform research: Developing the research agenda for platforms,
+the associated technologies and social impacts. Technol. Forecast. Soc. Chang. 2021, 169, 682–689. [CrossRef]
+Li, X.R.; Zhang, X.X.; Li, Z.Y. A bibliometric analysis on business models. Syst. Eng. Theory Pract. 2016, 36, 273–287.
+Li, J.; Chen, C.M. Text Mining and Visualization in Scientific Literature, 2nd ed.; Capital University of Economics and Business Press:
+Beijing, China, 2017.
+Hamilton, J.D. Understanding crude oil prices. Energy J. 2009, 30, 179–206. [CrossRef]
+
+Sustainability 2022, 14, 9536
+
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.
+51.
+52.
+
+20 of 22
+
+Mueller, S.A.; Anderson, J.E.; Wallington, T.J. Impact of biofuel production and other supply and demand factors on food price
+increases in 2008. Biomass Bioenergy 2011, 35, 1623–1632. [CrossRef]
+Awan, O.A. Price discovery or noise: The role of arbitrage and speculation in explaining crude oil price behaviour. J. Commod.
+Mark. 2019, 16, 100086. [CrossRef]
+Baumeister, C.; Kilian, L. Forty years of oil price fluctuations: Why the price of oil may still surprise us. J. Econ. Perspect. 2016,
+30, 139–160. [CrossRef]
+Chen, S.-T.; Kuo, H.-I.; Chen, C.-C. Modeling the relationship between the oil price and global food prices. Appl. Energy 2010,
+87, 2517–2525. [CrossRef]
+Dube, O.; Vargas, J.F. Commodity price shocks and civil conflict: Evidence from Colombia. Rev. Econ. Stud. 2013, 80, 1384–1421.
+[CrossRef]
+Gilbert, C.L.; Morgan, C.W. Food price volatility. Philos. Trans. R. Soc. B. Biol. Sci. 2010, 365, 3023–3034. [CrossRef] [PubMed]
+Ji, Q.; Guo, J.-F. Oil price volatility and oil-related events: An Internet concern study perspective. Appl. Energy 2015, 137, 256–264.
+[CrossRef]
+Nazlioglu, S. World oil and agricultural commodity prices: Evidence from nonlinear causality. Energy Policy 2011, 39, 2935–2943.
+[CrossRef]
+Zhang, X.; Yu, L.; Wang, S.; Lai, K.K. Estimating the impact of extreme events on crude oil price: An EMD-based event analysis
+method. Energy Econ. 2009, 31, 768–778. [CrossRef]
+Hamilton, J.D. Oil and the macroeconomy since World War II. J. Political Econ. 1983, 91, 228–248. [CrossRef]
+Balcilar, M.; Van Eyden, R.; Uwilingiye, J.; Gupta, R. The impact of oil price on South African GDP growth: A Bayesian Markov
+switching-VAR analysis. Afr. Dev. Rev. 2017, 29, 319–336. [CrossRef]
+Benhmad, F. Dynamic cyclical comovements between oil prices and US GDP: A wavelet perspective. Energy Policy 2013,
+57, 141–151. [CrossRef]
+Jiménez-Rodríguez, R.; Sánchez, M. Oil price shocks and real GDP growth: Empirical evidence for some OECD countries. Appl.
+Econ. 2005, 37, 201–228. [CrossRef]
+Lardic, S.; Mignon, V. The impact of oil prices on GDP in European countries: An empirical investigation based on asymmetric
+cointegration. Energy Policy 2006, 34, 3910–3915. [CrossRef]
+Jiménez-Rodríguez, R. Oil price shocks and real GDP growth: Testing for non-linearity. Energy J. 2009, 30, 1–23. [CrossRef]
+Khan, M.A.; Husnain, M.I.U.; Abbas, Q.; Shah, S.Z.A. Asymmetric effects of oil price shocks on Asian economies: A nonlinear
+analysis. Empir. Econ. 2018, 57, 1319–1350. [CrossRef]
+Kilian, L.; Vigfusson, R.J. Do oil prices help forecast U.S. real GDP? The role of nonlinearities and asymmetries. J. Bus. Econ. Stat.
+2013, 31, 78–93. [CrossRef]
+Chen, S.S.; Chen, H.C. Oil prices and real exchange rates. Energy Econ. 2007, 29, 390–404. [CrossRef]
+Aloui, R.; Ben Aïssa, M.S.; Nguyen, D.K. Conditional dependence structure between oil prices and exchange rates: A copulaGARCH approach. J. Int. Money Financ. 2013, 32, 719–738. [CrossRef]
+Ghosh, S. Examining crude oil price—Exchange rate nexus for India during the period of extreme oil price volatility. Appl. Energy
+2011, 88, 1886–1889. [CrossRef]
+Huang, Y.; Guo, F. The role of oil price shocks on China’s real exchange rate. China Econ. Rev. 2007, 18, 403–416. [CrossRef]
+Ji, Q.; Liu, B.-Y.; Fan, Y. Risk dependence of CoVaR and structural change between oil prices and exchange rates: A time-varying
+copula model. Energy Econ. 2019, 77, 80–92. [CrossRef]
+Reboredo, J.C.; Rivera-Castro, M.A. A wavelet decomposition approach to crude oil price and exchange rate dependence. Econ.
+Model. 2013, 32, 42–57. [CrossRef]
+Sari, R.; Hammoudeh, S.; Soytas, U. Dynamics of oil price, precious metal prices, and exchange rate. Energy Econ. 2010, 32, 351–362.
+[CrossRef]
+Tule, M.K.; Salisu, A.A.; Chiemeke, C.C. Can agricultural commodity prices predict Nigeria’s inflation? J. Commod. Mark. 2019,
+16, 100087. [CrossRef]
+Wu, C.-C.; Chung, H.; Chang, Y.-H. The economic value of co-movement between oil price and exchange rate using copula-based
+GARCH models. Energy Econ. 2012, 34, 270–282. [CrossRef]
+Papapetrou, E. Oil price shocks, stock market, economic activity and employment in Greece. Energy Econ. 2001, 23, 511–532.
+[CrossRef]
+Ewing, B.T.; Thompson, M.A. Dynamic cyclical comovements of oil prices with industrial production, consumer prices, unemployment, and stock prices. Energy Policy 2007, 35, 5535–5540. [CrossRef]
+Guerrero-Escobar, S.; Hernandez-del-Valle, G.; Hernandez-Vega, M. Do heterogeneous countries respond differently to oil price
+shocks? J. Commod. Mark. 2019, 16, 100084. [CrossRef]
+Li, R.; Leung, G.C.K. The relationship between energy prices, economic growth and renewable energy consumption: Evidence
+from Europe. Energy Rep. 2021, 7, 1712–1719. [CrossRef]
+Mukhtarov, S.; Mikayilov, J.I.; Humbatova, S.; Muradov, V. Do high oil prices obstruct the transition to renewable energy
+consumption? Sustainability 2020, 12, 4689. [CrossRef]
+Karacan, R.; Mukhtarov, S.; Barış, İ.; İşleyen, A.; Yardımcı, M.E. The impact of oil price on transition toward renewable energy
+consumption? Evidence from Russia. Energies 2021, 14, 2947. [CrossRef]
+
+Sustainability 2022, 14, 9536
+
+53.
+54.
+55.
+56.
+57.
+58.
+59.
+
+60.
+61.
+62.
+63.
+64.
+65.
+66.
+67.
+68.
+69.
+70.
+71.
+72.
+73.
+74.
+75.
+76.
+77.
+78.
+79.
+80.
+81.
+82.
+83.
+84.
+
+21 of 22
+
+Mukhtarov, S.; Mikayilov, J.I.; Maharramov, S.; Aliyev, J.; Suleymanov, E. Higher oil prices, are they good or bad for renewable
+energy consumption: The case of Iran? Renew. Energy 2022, 186, 411–419. [CrossRef]
+Umar, B.; Alam, M.M.; Al-Amin, A.Q. Exploring the contribution of energy price to carbon emissions in African countries.
+Environ. Sci. Pollut. Res. Int. 2021, 28, 1973–1982. [CrossRef]
+Ma, Y.; Zhang, L.; Song, S.; Yu, S. Impacts of energy price on agricultural production, energy consumption, and carbon emission
+in China: A Price Endogenous Partial Equilibrium Model Analysis. Sustainability 2022, 14, 3002. [CrossRef]
+Sha, R.; Ge, T.; Li, J. How Energy price distortions affect China’s economic growth and carbon emissions. Sustainability 2022,
+14, 7312. [CrossRef]
+Lee, S.; Chong, W.O. Causal relationships of energy consumption, price, and CO2 emissions in the U.S. building sector. Resour.
+Conserv. Recycl. 2016, 107, 220–226. [CrossRef]
+Guo, Z.; Zhang, X.; Wang, D.; Zhao, X. The impacts of an energy price decline associated with a carbon tax on the energyeconomy-environment system in China. Emerg. Mark. Financ. Trade 2019, 55, 2689–2702. [CrossRef]
+Malik, M.Y.; Latif, K.; Khan, Z.; Butt, H.D.; Hussain, M.; Nadeem, M.A. Symmetric and asymmetric impact of oil price, FDI and
+economic growth on carbon emission in Pakistan: Evidence from ARDL and non-linear ARDL approach. Sci. Total Environ. 2020,
+726, 138421. [CrossRef] [PubMed]
+Ike, G.N.; Usman, O.; Alola, A.A.; Sarkodie, S.A. Environmental quality effects of income, energy prices and trade: The role of
+renewable energy consumption in G-7 countries. Sci. Total Environ. 2020, 721, 137813. [CrossRef]
+Huang, S.-C.; Wu, C.-F. Energy commodity price forecasting with deep multiple kernel learning. Energies 2018, 11, 3029. [CrossRef]
+Herrera, A.M.; Hu, L.; Pastor, D. Forecasting crude oil price volatility. Int. J. Forecast. 2018, 34, 3029. [CrossRef]
+Gupta, R.; Wohar, M. Forecasting oil and stock returns with a Qual VAR using over 150 years off data. Energy Econ. 2017, 62,
+181–186. [CrossRef]
+Gavriilidis, K.; Kambouroudis, D.S.; Tsakou, K.; Tsouknidis, D.A. Volatility forecasting across tanker freight rates: The role of oil
+price shocks. Transp. Res. Part E Logist. Transp. Rev. 2018, 118, 376–391. [CrossRef]
+Yu, L.; Wang, S.; Lai, K.K. Forecasting crude oil price with an EMD-based neural network ensemble learning paradigm. Energy
+Econ. 2008, 30, 2623–2635. [CrossRef]
+Wang, J.; Li, X. A combined neural network model for commodity price forecasting with SSA. Soft Comput. 2018, 22, 5323–5333.
+[CrossRef]
+Zhang, Y.; Na, S. A Novel agricultural commodity price forecasting model based on fuzzy information granulation and MEA-SVM
+model. Math. Probl. Eng. 2018, 2018, 2540681. [CrossRef]
+Zhang, J.-L.; Zhang, Y.-J.; Zhang, L. A novel hybrid method for crude oil price forecasting. Energy Econ. 2015, 49, 649–659.
+[CrossRef]
+Kristjanpoller, W.; Minutolo, M.C. Forecasting volatility of oil price using an artificial neural network-GARCH model. Expert Sys.
+Appl. 2016, 65, 233–241. [CrossRef]
+Sadorsky, P. Oil price shocks and stock market activity. Energy Econ. 1999, 21, 449–469. [CrossRef]
+Hedi Arouri, M.E.; Khuong Nguyen, D. Oil prices, stock markets and portfolio investment: Evidence from sector analysis in
+Europe over the last decade. Energy Policy 2010, 38, 4528–4539. [CrossRef]
+Hedi Arouri, M.E.; Jouini, J.; Nguyen, D.K. Volatility spillovers between oil prices and stock sector returns: Implications for
+portfolio management. J. Int. Money Financ. 2011, 30, 1387–1405. [CrossRef]
+Cong, R.-G.; Wei, Y.-M.; Jiao, J.-L.; Fan, Y. Relationships between oil price shocks and stock market: An empirical analysis from
+China. Energy Policy 2008, 36, 3544–3553. [CrossRef]
+Kilian, L. Not all oil price shocks are alike: Disentangling demand and supply shocks in the crude oil market. Am. Econ. Rev.
+2009, 99, 1053–1069. [CrossRef]
+Narayan, P.K.; Narayan, S. Modelling the impact of oil prices on Vietnam’s stock prices. Appl. Energy 2010, 87, 356–361. [CrossRef]
+Park, J.; Ratti, R.A. Oil price shocks and stock markets in the U.S. and 13 European countries. Energy Econ. 2008, 30, 2587–2608.
+[CrossRef]
+Salisu, A.A.; Oloko, T.F. Modeling oil price–US stock nexus: A VARMA–BEKK–AGARCH approach. Energy Econ. 2015, 50, 1–12.
+[CrossRef]
+Morana, C. Oil price dynamics, macro-finance interactions and the role of financial speculation. J. Bank. Financ. 2013, 37, 206–226.
+[CrossRef]
+Tilton, J.E.; Humphreys, D.; Radetzki, M. Investor demand and spot commodity prices. Resour. Policy 2011, 36, 187–195. [CrossRef]
+Ohashi, K.; Okimoto, T. Increasing trends in the excess comovement of commodity prices. J. Commod. Mark. 2016, 1, 48–64.
+[CrossRef]
+Hong, Y.; Wang, S. Big data, machine learning and statistics: Challenges and opportunities. China J. Econom. 2021, 1, 17–35.
+Jammazi, R.; Aloui, C. Crude oil price forecasting: Experimental evidence from wavelet decomposition and neural network
+modeling. Energy Econ. 2012, 34, 828–841. [CrossRef]
+Zhao, Y.; Li, J.; Yu, L. A deep learning ensemble approach for crude oil price forecasting. Energy Econ. 2017, 66, 9–16. [CrossRef]
+Filis, G.; Degiannakis, S.; Floros, C. Dynamic correlation between stock market and oil prices: The case of oil-importing and
+oil-exporting countries. Int. Rev. Financ. Anal. 2011, 20, 152–164. [CrossRef]
+
+Sustainability 2022, 14, 9536
+
+22 of 22
+
+Sim, N.; Zhou, H. Oil prices, US stock return, and the dependence between their quantiles. J. Bank. Financ. 2015, 55, 1–8.
+[CrossRef]
+86. Lee, K.; Ni, S.; Ratti, R.A. Oil shocks and the macroeconomy: The role of price variability. Energy J. 1995, 16, 39–56. [CrossRef]
+87. Mork, K.A.; Olsen, O.; Mysen, H.T. Macroeconomic responses to oil price increases and decreases in seven OECD countries.
+Energy J. 1994, 15, 19–35. [CrossRef]
+88. Hamilton, J.D. What is an oil shock? J. Econom. 2003, 113, 363–398. [CrossRef]
+89. Basher, S.A.; Haug, A.A.; Sadorsky, P. Oil prices, stock returns and emerging stock markets. Energy Econ. 2012, 34, 227–240.
+[CrossRef]
+90. Kilian, L.; Park, C. The impact of oil price shocks on the US stock market. Int. Econ. Rev. 2009, 50, 1267–1287. [CrossRef]
+91. Kilian, L.; Murphy, D.P. The role of inventories and speculative trading in the global market for crude oil. J. Appl. Econom. 2014,
+29, 454–478. [CrossRef]
+92. Davis, S.J.; Haltiwanger, J. Sectoral job creation and destruction responses to oil price changes. J. Monet. Econ. 2001, 48, 465–512.
+[CrossRef]
+93. Hooker, M.A. Are oil shocks inflationary? Asymmetric and nonlinear specifications versus changes in regime. J. Money Credit.
+Bank. 2002, 34, 540–561. Available online: https://www.jstor.org/stable/3270701 (accessed on 6 October 2021). [CrossRef]
+94. Jones, D.W.; Leiby, P.N.; Paik, I.K. Oil price shocks and the macroeconomy: What has been learned since 1996. Energy J. 2004,
+25, 1–32. [CrossRef]
+95. Barsky, R.B.; Kilian, L. Oil and the macroeconomy since the 1970s. J. Econ. Perspect. 2004, 18, 115–134. [CrossRef]
+96. Bernanke, B.; Gertler, M.; Watson, M.W. Oil shocks and aggregate macroeconomic behavior: The role of monetary policy: A Reply.
+J. Money Credit. Bank. 2004, 36, 287–291. [CrossRef]
+97. Cunado, J.; Perez de Gracia, F. Oil prices, economic activity and inflation: Evidence for some Asian countries. Q. Rev. Econ. Financ.
+2005, 45, 65–83. [CrossRef]
+98. Wang, Q.; Yang, X.; Li, R. The impact of the COVID-19 pandemic on the energy market—A comparative relationship between oil
+and coal. Energy Strategy Rev. 2022, 39, 100761. [CrossRef]
+99. Chai, J.; Lu, Q.; Hu, Y.; Wang, S.; Lai, K.K.; Liu, H. Analysis and Bayes statistical probability inference of crude oil price change
+point. Technol. Forecast. Soc. Chang. 2018, 126, 271–283. [CrossRef]
+100. Zhang, J.; Yuan, X. COVID-19 risk assessment: Contributing to maintaining urban public health security and achieving sustainable
+urban development. Sustainability 2021, 13, 4208. [CrossRef]
+85.
+
+
